@@ -1,0 +1,53 @@
+group 'com.flappygo.flutter_flappy_pay'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        jcenter()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 16
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+    repositories {
+        flatDir {
+            dirs { 'libs' }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    // 支付宝
+    implementation files('libs/alipaySdk-15.7.9-20200727142846.aar')
+    // 微信
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+}
