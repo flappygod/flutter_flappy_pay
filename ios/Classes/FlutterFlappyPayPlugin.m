@@ -116,7 +116,7 @@ __weak FlutterFlappyPayPlugin* __plugin;
         //初始化微信API
         if(_wxInited==false){
             //初始化
-            _wxInited=[WXApi registerApp: requiredParams[0] universalLink:universalLink];
+            _wxInited=[WXApi registerApp: [payParam objectForKey:requiredParams[0]] universalLink:universalLink];
         }
         //支付
         PayReq *wxReq = [[PayReq alloc] init];
