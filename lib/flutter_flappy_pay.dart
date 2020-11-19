@@ -3,7 +3,17 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 
+enum YunPayType {
+  //微信支付
+  TYPE_WX,
+  //支付宝支付
+  TYPE_ALI,
+  //银联支付
+  TYPE_UMS,
+}
+
 class FlutterFlappyPay {
+
   //channel
   static const MethodChannel _channel = const MethodChannel('flutter_flappy_pay');
 
@@ -33,6 +43,27 @@ class FlutterFlappyPay {
       'payInfo': payInfo,
       'appScheme': appScheme,
       'universalLink': universalLink,
+    });
+    return jsonDecode(data);
+  }
+
+  //使用银联支付
+  static Future<Map> yunPay(String payInfo, YunPayType payChannel, String universalLink) async {
+    int type = 0;
+    switch (payChannel) {
+      case YunPayType.TYPE_WX:
+        type = 0;
+        break;
+      case YunPayType.TYPE_ALI:
+        type = 1;
+        break;
+      case YunPayType.TYPE_UMS:
+        type = 2;
+        break;
+    }
+    final String data = await _channel.invokeMethod('yunPay', <String, dynamic>{
+      'payInfo': payInfo,
+      'payChannel': type.toString(),
     });
     return jsonDecode(data);
   }

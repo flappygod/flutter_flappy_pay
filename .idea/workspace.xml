@@ -4,20 +4,33 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_flappy_pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_flappy_pay.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SKZSMFE699999999]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jDgaP2hbaoBpQwLvhP7nqjGnOk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -41,6 +54,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1603363018832">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
+    <state x="799" y="413" key="Github.ShareDialog" timestamp="1603362916869">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state x="799" y="413" key="Github.ShareDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362916869" />
+    <state x="479" y="223" key="Github.UntrackedFilesDialog" timestamp="1603362941248">
+      <screen x="0" y="23" width="1920" height="973" />
+    </state>
+    <state x="479" y="223" key="Github.UntrackedFilesDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362941248" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1603355164944">
       <screen x="0" y="23" width="1920" height="978" />
     </state>

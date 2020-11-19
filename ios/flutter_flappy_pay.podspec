@@ -16,15 +16,17 @@ A new Flutter plugin.
 
   s.source_files = 'Classes/**/*'
 
-  s.public_header_files = 'Classes/**/*.h'
+  s.public_header_files = 'Classes/**/*.h','Frameworks/UMSPosPayOnly/include/*.h'
 
   s.dependency 'Flutter'
 
   s.dependency 'WechatOpenSDK'
 
-  s.resource = 'Frameworks/AlipaySDK.bundle'
+  s.resource = 'Frameworks/AlipaySDK.bundle','Frameworks/PosPay_Resource.bundle','Frameworks/UMSSecKeyboardLibResource.bundle'
 
   s.vendored_frameworks = 'Frameworks/AlipaySDK.framework'
+
+  s.vendored_library = 'Frameworks/libUMSPosPayOnly.a'
 
   s.libraries = 'z','c++','stdc++'
 

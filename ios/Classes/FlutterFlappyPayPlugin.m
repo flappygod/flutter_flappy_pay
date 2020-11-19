@@ -1,4 +1,5 @@
 #import "FlutterFlappyPayPlugin.h"
+#import "UMSPPPayUnifyPayPlugin.h"
 
 //当前plugin的引用
 __weak FlutterFlappyPayPlugin* __plugin;
@@ -90,7 +91,7 @@ __weak FlutterFlappyPayPlugin* __plugin;
         }];
         
     }
-    //支付宝支付
+    //微信支付
     else if ([@"wxPay" isEqualToString:call.method]) {
         //获取支付信息
         NSString* payInfo=call.arguments[@"payInfo"];
@@ -130,6 +131,62 @@ __weak FlutterFlappyPayPlugin* __plugin;
         [WXApi sendReq:wxReq completion:^(BOOL success) {
             NSLog(@"onReq..wxReq.success.");
         }];
+        
+    }
+    //调用银联支付
+    else if ([@"yunPay" isEqualToString:call.method]) {
+        
+        NSString* payInfo=call.arguments[@"payInfo"];
+        NSString* payChannel=call.arguments[@"payChannel"];
+        
+        //0微信
+        if(payChannel.intValue==0){
+            __weak typeof(self) safeSelf=self;
+            [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN
+                                              payData:payInfo
+                                        callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                        dic[@"resultCode"]=resultCode;
+                        dic[@"resultInfo"]=resultInfo;
+                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                        if(safeSelf.result!=nil){
+                            safeSelf.result(ret);
+                            safeSelf.result=nil;
+                        }
+            }];
+        }
+        //支付宝
+        else if(payChannel.intValue==1){
+            __weak typeof(self) safeSelf=self;
+            [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_ALIPAY
+                                              payData:payInfo
+                                        callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                        dic[@"resultCode"]=resultCode;
+                        dic[@"resultInfo"]=resultInfo;
+                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                        if(safeSelf.result!=nil){
+                            safeSelf.result(ret);
+                            safeSelf.result=nil;
+                        }
+            }];
+        }
+        //银联支付
+        else if(payChannel.intValue==2){
+            __weak typeof(self) safeSelf=self;
+            [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_UMSPAY
+                                              payData:payInfo
+                                        callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                        dic[@"resultCode"]=resultCode;
+                        dic[@"resultInfo"]=resultInfo;
+                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                        if(safeSelf.result!=nil){
+                            safeSelf.result(ret);
+                            safeSelf.result=nil;
+                        }
+            }];
+        }
         
     }else {
         result(FlutterMethodNotImplemented);
