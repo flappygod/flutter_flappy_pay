@@ -135,12 +135,19 @@ __weak FlutterFlappyPayPlugin* __plugin;
     }
     //调用银联支付
     else if ([@"yunPay" isEqualToString:call.method]) {
-        
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* payChannel=call.arguments[@"payChannel"];
-        
+        NSString* universalLink=call.arguments[@"universalLink"];
+        //解析
+        NSDictionary* dic=[FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //0微信
         if(payChannel.intValue==0){
+            //初始化微信API
+            if(_umpInited==false){
+                //初始化
+                _umpInited=[UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
+                                                 universalLink:universalLink];
+            }
             __weak typeof(self) safeSelf=self;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN
                                               payData:payInfo

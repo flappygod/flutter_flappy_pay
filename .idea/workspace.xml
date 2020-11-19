@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,25 +88,25 @@
       <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state x="479" y="223" key="Github.UntrackedFilesDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362941248" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1605769019727">
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1605769639291">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1605769019727" />
+    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1605769019727">
+    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1605769639291">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1605769019727" />
+    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1605769019726">
+    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1605769639290">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1605769019726" />
+    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1605769639290" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1605769019727">
+    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1605769639291">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769019727" />
+    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605764447157">
       <screen x="0" y="23" width="1920" height="976" />
@@ -118,12 +118,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>57</line>
+          <line>60</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>56</line>
+          <line>59</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

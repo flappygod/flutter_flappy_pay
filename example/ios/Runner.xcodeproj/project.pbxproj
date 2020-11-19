@@ -403,7 +403,7 @@
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.flappygo.flutterFlappyPayExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiduo.usershopnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -540,7 +540,7 @@
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.flappygo.flutterFlappyPayExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiduo.usershopnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -572,7 +572,7 @@
 					"-framework",
 					Flutter,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.flappygo.flutterFlappyPayExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiduo.usershopnc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VERSIONING_SYSTEM = "apple-generic";
 			};

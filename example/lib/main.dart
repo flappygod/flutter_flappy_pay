@@ -16,8 +16,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
 
-  String payStr="{\n  \"sign\" : \"8474748CA7D03DC51CE2CCCEB88F361B\",\n  \"partnerid\" : \"396595359\",\n  \"prepayid\" : "
-      "\"a9a387844ac140f885ca99afcc05cf4b\",\n  \"timestamp\" : \"20201119145022\",\n  \"package\" : \"Sign=WXPay\",\n  \"noncestr\" : \"lmBoWsWJmPrSuEPfBJWoqUiURHtqfbYt\",\n  \"minipath\" : \"pages\\/appPay\\/index\",\n  \"miniuser\" : \"gh_744d2ebca056\",\n  \"appid\" : \"wxde49e54377b35da9\"\n}";
+  String payStr="{\n  \"sign\" : \"5D3E48B7801266EE9E1CE2ADC73BC279\",\n  \"partnerid\" : \"396595359\",\n  \"prepayid\" : "
+      "\"f7f325f3371a4eaab957fe6844451f10\",\n  \"timestamp\" : \"20201119150209\",\n  \"package\" : \"Sign=WXPay\",\n  \"noncestr\" : \"uKZEBnUDEexIvkISSYzenbrjHkVqOxNp\",\n  \"minipath\" : \"pages\\/appPay\\/index\",\n  \"miniuser\" : \"gh_744d2ebca056\",\n  \"appid\" : \"wxde49e54377b35da9\"\n}";
+
+
+
   @override
   void initState() {
     super.initState();

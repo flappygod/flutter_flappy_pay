@@ -12,6 +12,9 @@
 //当前是否初始化
 @property (nonatomic,assign) bool wxInited;
 
+//当前是否初始化
+@property (nonatomic,assign) bool umpInited;
+
 //支付宝scheme
 @property (nonatomic,copy) NSString* aliScheme;
 
