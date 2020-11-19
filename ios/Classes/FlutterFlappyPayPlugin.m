@@ -148,18 +148,23 @@ __weak FlutterFlappyPayPlugin* __plugin;
                 _umpInited=[UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
                                                  universalLink:universalLink];
             }
+            //数据
+            NSString *payDataJsonStr = [[NSString alloc] initWithData:
+                                        [NSJSONSerialization dataWithJSONObject:dic
+                                                                        options:NSJSONWritingPrettyPrinted error:nil]
+                                                                       encoding:NSUTF8StringEncoding];
             __weak typeof(self) safeSelf=self;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN
-                                              payData:payInfo
+                                              payData:payDataJsonStr
                                         callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
-                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
-                        dic[@"resultCode"]=resultCode;
-                        dic[@"resultInfo"]=resultInfo;
-                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
-                        if(safeSelf.result!=nil){
-                            safeSelf.result(ret);
-                            safeSelf.result=nil;
-                        }
+                NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                dic[@"resultCode"]=resultCode;
+                dic[@"resultInfo"]=resultInfo;
+                NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                if(safeSelf.result!=nil){
+                    safeSelf.result(ret);
+                    safeSelf.result=nil;
+                }
             }];
         }
         //支付宝
@@ -168,14 +173,14 @@ __weak FlutterFlappyPayPlugin* __plugin;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_ALIPAY
                                               payData:payInfo
                                         callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
-                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
-                        dic[@"resultCode"]=resultCode;
-                        dic[@"resultInfo"]=resultInfo;
-                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
-                        if(safeSelf.result!=nil){
-                            safeSelf.result(ret);
-                            safeSelf.result=nil;
-                        }
+                NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                dic[@"resultCode"]=resultCode;
+                dic[@"resultInfo"]=resultInfo;
+                NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                if(safeSelf.result!=nil){
+                    safeSelf.result(ret);
+                    safeSelf.result=nil;
+                }
             }];
         }
         //银联支付
@@ -184,14 +189,14 @@ __weak FlutterFlappyPayPlugin* __plugin;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_UMSPAY
                                               payData:payInfo
                                         callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
-                        NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
-                        dic[@"resultCode"]=resultCode;
-                        dic[@"resultInfo"]=resultInfo;
-                        NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
-                        if(safeSelf.result!=nil){
-                            safeSelf.result(ret);
-                            safeSelf.result=nil;
-                        }
+                NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+                dic[@"resultCode"]=resultCode;
+                dic[@"resultInfo"]=resultInfo;
+                NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+                if(safeSelf.result!=nil){
+                    safeSelf.result(ret);
+                    safeSelf.result=nil;
+                }
             }];
         }
         
