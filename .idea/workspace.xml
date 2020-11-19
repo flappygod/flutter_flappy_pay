@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_flappy_pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_flappy_pay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
-    </list>
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,13 +43,33 @@
       <option name="presentableId" value="Default" />
       <updated>1603344138822</updated>
     </task>
+    <task id="LOCAL-00001" summary="加入银联支付">
+      <created>1605764138972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605764138972</updated>
+    </task>
+    <task id="LOCAL-00002" summary="加入银联支付">
+      <created>1605764182968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605764182968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="加入银联支付" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入银联支付" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1603363018832">
-      <screen x="0" y="23" width="1920" height="973" />
+    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1605764182424">
+      <screen x="0" y="23" width="1920" height="976" />
     </state>
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
+    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764182424" />
     <state x="799" y="413" key="Github.ShareDialog" timestamp="1603362916869">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
@@ -86,6 +98,10 @@
     </state>
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1603355164943" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605764291819">
+      <screen x="0" y="23" width="1920" height="976" />
+    </state>
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764291819" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
