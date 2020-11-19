@@ -48,7 +48,7 @@ class FlutterFlappyPay {
   }
 
   //使用银联支付
-  static Future<Map> yunPay(String payInfo, YunPayType payChannel, String universalLink) async {
+  static Future<Map> yunPay(String payInfo, YunPayType payChannel) async {
     int type = 0;
     switch (payChannel) {
       case YunPayType.TYPE_WX:

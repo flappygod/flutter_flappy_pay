@@ -26,11 +26,12 @@ A new Flutter plugin.
 
   s.vendored_frameworks = 'Frameworks/AlipaySDK.framework'
 
-  s.vendored_library = 'Frameworks/libUMSPosPayOnly.a'
+  s.vendored_library = 'Frameworks/libUMSPosPayOnly.a','Frameworks/libPaymentControl.a'
 
   s.libraries = 'z','c++','stdc++'
 
-  s.frameworks = 'CFNetwork','CoreFoundation','CoreMotion','CoreTelephony','CoreText','Foundation','SystemConfiguration','UIKit','WebKit'
+  s.frameworks = 'CFNetwork','CoreFoundation','CoreMotion','CoreTelephony','CoreText','Foundation',
+  'SystemConfiguration','UIKit','CoreGraphics','WebKit'
 
   s.platform = :ios, '8.0'
 
