@@ -16,7 +16,9 @@ import com.flappygo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
+import com.unionpay.UPPayAssistEx;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.Map;
@@ -228,7 +230,6 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
         }
         //银联支付
         else if (call.method.equals("yunPay")) {
-
             //订单信息
             final String payInfo = call.argument("payInfo");
             //flag
@@ -276,24 +277,16 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
 
         }//银联云闪付
         else if (call.method.equals("yunCloudPay")) {
-
-            //订单信息
-            final String payInfo = call.argument("payInfo");
-            //flag
-            final int flag = Integer.parseInt((String) call.argument("payChannel"));
-            //微信
-            if (flag == 0) {
-
+            try {
+                //订单信息
+                final String payInfo = call.argument("payInfo");
+                //支付数据
+                JSONObject jsonObject = new JSONObject(payInfo);
+                //支付
+                UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
-            //支付宝
-            else if (flag == 1) {
-
-            }
-            //银联支付
-            else if (flag == 2) {
-
-            }
-
 
         } else {
             result.notImplemented();
