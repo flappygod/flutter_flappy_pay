@@ -285,7 +285,7 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 //支付
                 UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
             } catch (JSONException e) {
-                e.printStackTrace();
+                result.success("{\"resultCode\":\"-1\",\"resultInfo\":\"支付失败，参数格式错误\"}");
             }
 
         } else {
