@@ -379,14 +379,18 @@ __weak FlutterFlappyPayPlugin* __plugin;
 -(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
     return [FlutterFlappyPayPlugin handleOpenURL:url];
 }
+
 // ios 9.0+
 -(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
     return [FlutterFlappyPayPlugin handleOpenURL:url];
 }
 
-- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
+- (BOOL)application:(UIApplication*)application
+continueUserActivity:(NSUserActivity*)userActivity
+ restorationHandler:(void (^)(NSArray*))restorationHandler{
     return [FlutterFlappyPayPlugin handleOpenUniversalLink:userActivity delegate:self];
 }
+
 
 
 @end
