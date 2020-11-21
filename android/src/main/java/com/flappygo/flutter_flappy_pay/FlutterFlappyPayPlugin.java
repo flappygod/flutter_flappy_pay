@@ -16,6 +16,7 @@ import com.flappygo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
+import com.unionpay.UPPayAssistEx;
 //import com.unionpay.UPPayAssistEx;
 
 import org.json.JSONException;
@@ -283,7 +284,7 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 //支付数据
                 JSONObject jsonObject = new JSONObject(payInfo);
                 //支付
-                //UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
+                UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
             } catch (JSONException e) {
                 result.success("{\"resultCode\":\"-1\",\"resultInfo\":\"支付失败，参数格式错误\"}");
             }
