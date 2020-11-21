@@ -24,6 +24,9 @@
 //银联支付
 @property (nonatomic,copy) NSString* yunScheme;
 
+//银联支付
+@property (nonatomic,copy) NSString* yunCloudScheme;
+
 //用于处理appdelegate
 +(BOOL)handleOpenURL:(NSURL*)url;
 

@@ -60,9 +60,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if ([@"aliAuth" isEqualToString:call.method]) {
         NSString* authInfo=call.arguments[@"authInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        //清空scheme
+        _aliScheme=appScheme;
         _wxScheme=nil;
         _yunScheme=nil;
-        _aliScheme=appScheme;
+        _yunCloudScheme=nil;
         __weak typeof(self) safeSelf=self;
         //调用授权方法
         [[AlipaySDK defaultService] auth_V2WithInfo:authInfo
@@ -80,9 +82,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         //获取支付信息
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        //清空scheme
+        _aliScheme=appScheme;
         _wxScheme=nil;
         _yunScheme=nil;
-        _aliScheme=appScheme;
+        _yunCloudScheme=nil;
         __weak typeof(self) safeSelf=self;
         //调用支付结果开始支付
         [[AlipaySDK defaultService] payOrder:payInfo
@@ -101,9 +105,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        //清空scheme
         _aliScheme=nil;
-        _yunScheme=nil;
         _wxScheme=appScheme;
+        _yunScheme=nil;
+        _yunCloudScheme=nil;
         //支付信息解析
         NSDictionary * payParam =  [FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //需要的
@@ -145,9 +151,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* appScheme=call.arguments[@"appScheme"];
         NSString* payChannel=call.arguments[@"payChannel"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        //清空scheme
         _aliScheme=nil;
         _wxScheme=nil;
         _yunScheme=appScheme;
+        _yunCloudScheme=nil;
         //解析
         NSDictionary* dic=[FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //0微信
@@ -213,10 +221,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* payInfo=call.arguments[@"payInfo"];
         //当前scheme
         NSString* appScheme=call.arguments[@"appScheme"];
-        //赋值
+        //清空scheme
         _aliScheme=nil;
         _wxScheme=nil;
-        _yunScheme=appScheme;
+        _yunScheme=nil;
+        _yunCloudScheme=appScheme;
         //拿到最顶层的controller
         UIViewController *topController = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
         //定义
@@ -291,6 +300,10 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if(_yunScheme!=nil&&  [url.scheme isEqualToString:_yunScheme] ){
         return [UMSPPPayUnifyPayPlugin handleOpenURL:url otherDelegate:self];
     }
+    //银联云闪付
+    if(_yunCloudScheme &&  [url.scheme isEqualToString:_yunCloudScheme]){
+        return   [UMSPPPayUnifyPayPlugin cloudPayHandleOpenURL:url];
+    }
     return NO;
 }
 
@@ -361,8 +374,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
 
 
 /**
-回调通知
-*/
+ 回调通知
+ */
 -(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
     return [FlutterFlappyPayPlugin handleOpenURL:url];
 }
