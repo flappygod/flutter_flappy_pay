@@ -13,6 +13,7 @@ __weak FlutterFlappyPayPlugin* __plugin;
                                      methodChannelWithName:@"flutter_flappy_pay"
                                      binaryMessenger:[registrar messenger]];
     FlutterFlappyPayPlugin* instance = [[FlutterFlappyPayPlugin alloc] init];
+    [registrar addApplicationDelegate:instance];
     [registrar addMethodCallDelegate:instance channel:channel];
     __plugin=instance;
 }
@@ -349,6 +350,22 @@ __weak FlutterFlappyPayPlugin* __plugin;
             self.result=nil;
         }
     }
+}
+
+
+/**
+回调通知
+*/
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    return [FlutterFlappyPayPlugin handleOpenURL:url];
+}
+// ios 9.0+
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    return [FlutterFlappyPayPlugin handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
+    return [FlutterFlappyPayPlugin handleOpenUniversalLink:userActivity delegate:self];
 }
 
 
