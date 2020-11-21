@@ -152,7 +152,7 @@ __weak FlutterFlappyPayPlugin* __plugin;
             NSString *payDataJsonStr = [[NSString alloc] initWithData:
                                         [NSJSONSerialization dataWithJSONObject:dic
                                                                         options:NSJSONWritingPrettyPrinted error:nil]
-                                                                       encoding:NSUTF8StringEncoding];
+                                                             encoding:NSUTF8StringEncoding];
             __weak typeof(self) safeSelf=self;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN
                                               payData:payDataJsonStr
@@ -200,9 +200,46 @@ __weak FlutterFlappyPayPlugin* __plugin;
             }];
         }
         
+    }
+    else if ([@"yunCloudPay" isEqualToString:call.method]) {
+        //支付信息
+        NSString* payInfo=call.arguments[@"payInfo"];
+        //当前scheme
+        NSString* appScheme=call.arguments[@"appScheme"];
+        //拿到最顶层的controller
+        UIViewController *topController = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
+        //定义
+        __weak typeof(self) safeSelf=self;
+        //cloudPay
+        [UMSPPPayUnifyPayPlugin cloudPayWithURLSchemes:appScheme
+                                               payData:payInfo
+                                        viewController:topController
+                                         callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+            NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+            dic[@"resultCode"]=resultCode;
+            dic[@"resultInfo"]=resultInfo;
+            NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+            if(safeSelf.result!=nil){
+                safeSelf.result(ret);
+                safeSelf.result=nil;
+            }
+        }];
+        
     }else {
         result(FlutterMethodNotImplemented);
     }
+}
+
+//这里是获取整个应用的顶部Controller;
+- (UIViewController *)_topViewController:(UIViewController *)vc {
+    if ([vc isKindOfClass:[UINavigationController class]]) {
+        return [self _topViewController:[(UINavigationController *)vc topViewController]];
+    } else if ([vc isKindOfClass:[UITabBarController class]]) {
+        return [self _topViewController:[(UITabBarController *)vc selectedViewController]];
+    } else {
+        return vc;
+    }
+    return nil;
 }
 
 
