@@ -1,4 +1,4 @@
-package com.yimeiduo.b2b2c.wxapi;
+package com.flappygo.flutter_flappy_pay.wxapi;
 
 import android.app.Activity;
 import android.content.Intent;
