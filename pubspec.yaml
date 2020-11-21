@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.flappygo.flutter_flappy_pay
+        package: com.yimeiduo.b2b2c
         pluginClass: FlutterFlappyPayPlugin
       ios:
         pluginClass: FlutterFlappyPayPlugin

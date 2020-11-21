@@ -1,4 +1,4 @@
-package com.yimeiduo.flutter_flappy_pay;
+package com.yimeiduo.b2b2c;
 
 import android.app.Activity;
 import android.content.Context;
