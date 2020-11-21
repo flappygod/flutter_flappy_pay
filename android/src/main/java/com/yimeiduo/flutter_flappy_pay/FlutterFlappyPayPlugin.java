@@ -12,6 +12,7 @@ import com.alipay.sdk.app.PayTask;
 import com.chinaums.pppay.unify.UnifyPayListener;
 import com.chinaums.pppay.unify.UnifyPayPlugin;
 import com.chinaums.pppay.unify.UnifyPayRequest;
+import com.unionpay.UPPayAssistEx;
 import com.yimeiduo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
 //import com.unionpay.UPPayAssistEx;
@@ -281,7 +282,7 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 //支付数据
                 JSONObject jsonObject = new JSONObject(payInfo);
                 //支付
-                //UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
+                UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
             } catch (JSONException e) {
                 result.success("{\"resultCode\":\"-1\",\"resultInfo\":\"支付失败，参数格式错误\"}");
             }
