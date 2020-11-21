@@ -21,6 +21,9 @@
 //微信scheme
 @property (nonatomic,copy) NSString* wxScheme;
 
+//银联支付
+@property (nonatomic,copy) NSString* yunScheme;
+
 //用于处理appdelegate
 +(BOOL)handleOpenURL:(NSURL*)url;
 

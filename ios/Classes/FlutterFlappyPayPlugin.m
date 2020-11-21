@@ -89,7 +89,6 @@ __weak FlutterFlappyPayPlugin* __plugin;
                 safeSelf.result=nil;
             }
         }];
-        
     }
     //微信支付
     else if ([@"wxPay" isEqualToString:call.method]) {
@@ -136,8 +135,10 @@ __weak FlutterFlappyPayPlugin* __plugin;
     //调用银联支付
     else if ([@"yunPay" isEqualToString:call.method]) {
         NSString* payInfo=call.arguments[@"payInfo"];
+        NSString* appScheme=call.arguments[@"appScheme"];
         NSString* payChannel=call.arguments[@"payChannel"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        _yunScheme=appScheme;
         //解析
         NSDictionary* dic=[FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //0微信
@@ -255,18 +256,30 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if(!__plugin){
         return NO;
     }
-    return [WXApi handleOpenUniversalLink:userActivity delegate:__plugin];
+    //微信支付处理
+    if([WXApi handleOpenUniversalLink:userActivity delegate:__plugin]){
+        return TRUE;
+    }
+    //银联支付处理
+    if([UMSPPPayUnifyPayPlugin handleOpenUniversalLink:userActivity otherDelegate:__plugin]){
+        return TRUE;
+    }
+    return NO;
 }
 
 //回调通知
 - (BOOL)handleOpenURL:(NSURL*)url {
     //支付宝处理
-    if( [url.scheme isEqualToString:_aliScheme] ){
+    if(_aliScheme!=nil&& [url.scheme isEqualToString:_aliScheme] ){
         return [self handleAli:url];
     }
     //微信处理
-    else if( [url.scheme isEqualToString:_wxScheme] ){
+    if(_wxScheme!=nil&&  [url.scheme isEqualToString:_wxScheme] ){
         return [WXApi handleOpenURL:url delegate:self];
+    }
+    //银联支付
+    if(_yunScheme!=nil&&  [url.scheme isEqualToString:_yunScheme] ){
+        return [UMSPPPayUnifyPayPlugin handleOpenURL:url otherDelegate:self];
     }
     return NO;
 }
@@ -305,6 +318,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
     return [WXApi handleOpenURL:url delegate:self];
 }
 
+
+#pragma WXApiDelegate
 //微信代理处理
 - (void) onReq:(BaseReq *)req{
     NSLog(@"onReq....");
