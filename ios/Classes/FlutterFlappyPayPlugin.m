@@ -60,6 +60,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if ([@"aliAuth" isEqualToString:call.method]) {
         NSString* authInfo=call.arguments[@"authInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        _wxScheme=nil;
+        _yunScheme=nil;
         _aliScheme=appScheme;
         __weak typeof(self) safeSelf=self;
         //调用授权方法
@@ -78,6 +80,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
         //获取支付信息
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        _wxScheme=nil;
+        _yunScheme=nil;
         _aliScheme=appScheme;
         __weak typeof(self) safeSelf=self;
         //调用支付结果开始支付
@@ -97,6 +101,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        _aliScheme=nil;
+        _yunScheme=nil;
         _wxScheme=appScheme;
         //支付信息解析
         NSDictionary * payParam =  [FlutterFlappyPayPlugin jsonToDictionary:payInfo];
@@ -139,17 +145,16 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* appScheme=call.arguments[@"appScheme"];
         NSString* payChannel=call.arguments[@"payChannel"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        _aliScheme=nil;
+        _wxScheme=nil;
         _yunScheme=appScheme;
         //解析
         NSDictionary* dic=[FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //0微信
         if(payChannel.intValue==0){
             //初始化微信API
-            if(_umpInited==false){
-                //初始化
-                _umpInited=[UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
-                                                 universalLink:universalLink];
-            }
+            [UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
+                                  universalLink:universalLink];
             //数据
             NSString *payDataJsonStr = [[NSString alloc] initWithData:
                                         [NSJSONSerialization dataWithJSONObject:dic
@@ -209,6 +214,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
         //当前scheme
         NSString* appScheme=call.arguments[@"appScheme"];
         //赋值
+        _aliScheme=nil;
+        _wxScheme=nil;
         _yunScheme=appScheme;
         //拿到最顶层的controller
         UIViewController *topController = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
