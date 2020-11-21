@@ -67,4 +67,14 @@ class FlutterFlappyPay {
     });
     return jsonDecode(data);
   }
+
+  static Future<Map> yunCloudPay(String payInfo, String appScheme, String universalLink) async {
+    final String data = await _channel.invokeMethod('wxPay', <String, dynamic>{
+      'payInfo': payInfo,
+      'appScheme': appScheme,
+      'universalLink': universalLink,
+    });
+    return jsonDecode(data);
+  }
+
 }

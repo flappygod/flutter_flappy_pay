@@ -207,6 +207,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* payInfo=call.arguments[@"payInfo"];
         //当前scheme
         NSString* appScheme=call.arguments[@"appScheme"];
+        //赋值
+        _yunScheme=appScheme;
         //拿到最顶层的controller
         UIViewController *topController = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
         //定义
