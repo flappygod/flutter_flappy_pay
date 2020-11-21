@@ -1,4 +1,4 @@
-package com.flappygo.flutter_flappy_pay.wxapi;
+package com.yimeiduo.b2b2c.wxapi;
 
 import android.content.Context;
 
