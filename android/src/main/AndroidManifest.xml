@@ -34,7 +34,7 @@
 
         <!-- 微信回调桥接 -->
         <activity
-            android:name="com.flappygo.flutter_flappy_pay.wxapi.WXPayEntryActivity"
+            android:name=".wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Translucent">
