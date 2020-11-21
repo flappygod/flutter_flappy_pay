@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Dart" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -113,10 +113,11 @@
     </state>
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state x="341" y="138" key="SettingsEditor" timestamp="1605929674975">
-      <screen x="0" y="23" width="1680" height="954" />
+    <state x="341" y="138" key="SettingsEditor" timestamp="1605942336303">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
     <state x="341" y="138" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1605929674975" />
+    <state x="341" y="138" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1605942336303" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605764447157">
       <screen x="0" y="23" width="1920" height="976" />
     </state>
@@ -127,13 +128,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>60</line>
+          <line>64</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>59</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -16,10 +16,9 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   String _platformVersion = 'Unknown';
 
-  String payStr="{\n  \"sign\" : \"5D3E48B7801266EE9E1CE2ADC73BC279\",\n  \"partnerid\" : \"396595359\",\n  \"prepayid\" : "
+  String payStr =
+      "{\n  \"sign\" : \"5D3E48B7801266EE9E1CE2ADC73BC279\",\n  \"partnerid\" : \"396595359\",\n  \"prepayid\" : "
       "\"f7f325f3371a4eaab957fe6844451f10\",\n  \"timestamp\" : \"20201119150209\",\n  \"package\" : \"Sign=WXPay\",\n  \"noncestr\" : \"uKZEBnUDEexIvkISSYzenbrjHkVqOxNp\",\n  \"minipath\" : \"pages\\/appPay\\/index\",\n  \"miniuser\" : \"gh_744d2ebca056\",\n  \"appid\" : \"wxde49e54377b35da9\"\n}";
-
-
 
   @override
   void initState() {
@@ -57,7 +56,12 @@ class _MyAppState extends State<MyApp> {
         body: new GestureDetector(
           behavior: HitTestBehavior.translucent,
           onTap: () async {
-            Map  dataStr=await FlutterFlappyPay.yunPay(payStr,  YunPayType.TYPE_WX);
+            Map dataStr = await FlutterFlappyPay.yunPay(
+              payStr,
+              "",
+              "",
+              YunPayType.TYPE_WX,
+            );
             print(dataStr);
           },
           child: Center(
