@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605764442886</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="加入银联支付">
+      <created>1605942360866</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605942360866</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -80,9 +90,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="加入银联支付" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1605764442732">
-      <screen x="0" y="23" width="1920" height="976" />
+    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1605942360580">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.956@0.23.1680.956" timestamp="1605942360580" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764442732" />
     <state x="799" y="413" key="Github.ShareDialog" timestamp="1603362916869">

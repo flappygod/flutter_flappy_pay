@@ -48,6 +48,10 @@ android {
 dependencies {
     // 支付宝
     implementation files('libs/alipaySdk-15.7.9-20200727142846.aar')
+    //银联支付
+    implementation files('libs/qmf-ppplugin-android-3.0.7.aar')
     // 微信
     implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+
+
 }

@@ -9,6 +9,9 @@ import androidx.annotation.NonNull;
 
 import com.alipay.sdk.app.AuthTask;
 import com.alipay.sdk.app.PayTask;
+import com.chinaums.pppay.unify.UnifyPayListener;
+import com.chinaums.pppay.unify.UnifyPayPlugin;
+import com.chinaums.pppay.unify.UnifyPayRequest;
 import com.flappygo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
 import com.tencent.mm.opensdk.openapi.IWXAPI;
@@ -222,6 +225,76 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
             } catch (Exception e) {
                 result.success("{\"errCode\":\"-1\",\"errStr\":\"支付失败，参数格式错误\"}");
             }
+        }
+        //银联支付
+        else if (call.method.equals("yunPay")) {
+
+            //订单信息
+            final String payInfo = call.argument("payInfo");
+            //flag
+            final int flag = Integer.parseInt((String) call.argument("payChannel"));
+            //微信
+            if (flag == 0) {
+                UnifyPayRequest request = new UnifyPayRequest();
+                request.payChannel = UnifyPayRequest.CHANNEL_WEIXIN;
+                request.payData = payInfo;
+                UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
+                    @Override
+                    public void onResult(String resultCode, String resultInfo) {
+                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                    }
+                });
+                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+            }
+            //支付宝
+            else if (flag == 1) {
+                UnifyPayRequest request = new UnifyPayRequest();
+                request.payChannel = UnifyPayRequest.CHANNEL_ALIPAY;
+                request.payData = payInfo;
+                UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
+                    @Override
+                    public void onResult(String resultCode, String resultInfo) {
+                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                    }
+                });
+                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+            }
+            //银联支付
+            else if (flag == 2) {
+                UnifyPayRequest request = new UnifyPayRequest();
+                request.payChannel = UnifyPayRequest.CHANNEL_UMSPAY;
+                request.payData = payInfo;
+                UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
+                    @Override
+                    public void onResult(String resultCode, String resultInfo) {
+                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                    }
+                });
+                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+            }
+
+
+        }//银联云闪付
+        else if (call.method.equals("yunCloudPay")) {
+
+            //订单信息
+            final String payInfo = call.argument("payInfo");
+            //flag
+            final int flag = Integer.parseInt((String) call.argument("payChannel"));
+            //微信
+            if (flag == 0) {
+
+            }
+            //支付宝
+            else if (flag == 1) {
+
+            }
+            //银联支付
+            else if (flag == 2) {
+
+            }
+
+
         } else {
             result.notImplemented();
         }
