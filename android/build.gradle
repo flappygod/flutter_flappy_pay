@@ -16,9 +16,6 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        flatDir {
-            dirs 'libs'
-        }
     }
 }
 
@@ -28,20 +25,10 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 17
     }
     lintOptions {
         disable 'InvalidPackage'
-    }
-    repositories {
-        flatDir {
-            dirs { 'libs' }
-        }
-    }
-    sourceSets {
-        main {
-            jniLibs.srcDirs = ['libs']
-        }
     }
 }
 
@@ -49,9 +36,9 @@ dependencies {
     //加入jar包
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // 支付宝
-    implementation files('libs/alipaySdk-15.7.9-20200727142846.aar')
+    api files('libs/alipaySdk-15.7.9-20200727142846.aar')
     //银联支付
-    implementation files('libs/qmf-ppplugin-android-3.0.7.aar')
+    api files('libs/qmf-ppplugin-android-3.0.7.aar')
     // 微信
-    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }
