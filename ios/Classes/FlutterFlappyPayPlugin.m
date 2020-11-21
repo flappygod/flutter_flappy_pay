@@ -224,7 +224,6 @@ __weak FlutterFlappyPayPlugin* __plugin;
                 safeSelf.result=nil;
             }
         }];
-        
     }else {
         result(FlutterMethodNotImplemented);
     }
@@ -261,8 +260,6 @@ __weak FlutterFlappyPayPlugin* __plugin;
 
 //回调通知
 - (BOOL)handleOpenURL:(NSURL*)url {
-    NSLog(@"reslut = %@",url);
-    NSLog(@"url.scheme = %@",url.scheme);
     //支付宝处理
     if( [url.scheme isEqualToString:_aliScheme] ){
         return [self handleAli:url];
@@ -284,6 +281,14 @@ __weak FlutterFlappyPayPlugin* __plugin;
         [[AlipaySDK defaultService] processOrderWithPaymentResult:url standbyCallback:^(NSDictionary *resultDic) {
             NSLog(@"reslut = %@",resultDic);
             //返回数据
+            if(weakSelf.result!=nil){
+                weakSelf.result([FlutterFlappyPayPlugin dictionaryTojson:resultDic]);
+                weakSelf.result=nil;
+            }
+        }];
+        // 授权跳转支付宝钱包进行支付，处理支付结果
+        [[AlipaySDK defaultService] processAuth_V2Result:url standbyCallback:^(NSDictionary *resultDic) {
+            NSLog(@"result = %@",resultDic);
             if(weakSelf.result!=nil){
                 weakSelf.result([FlutterFlappyPayPlugin dictionaryTojson:resultDic]);
                 weakSelf.result=nil;
