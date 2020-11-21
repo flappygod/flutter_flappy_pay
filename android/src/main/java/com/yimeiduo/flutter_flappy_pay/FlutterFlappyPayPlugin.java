@@ -1,4 +1,4 @@
-package com.flappygo.flutter_flappy_pay;
+package com.yimeiduo.flutter_flappy_pay;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,10 +12,8 @@ import com.alipay.sdk.app.PayTask;
 import com.chinaums.pppay.unify.UnifyPayListener;
 import com.chinaums.pppay.unify.UnifyPayPlugin;
 import com.chinaums.pppay.unify.UnifyPayRequest;
-import com.flappygo.flutter_flappy_pay.wxapi.WxRegister;
+import com.yimeiduo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
-import com.tencent.mm.opensdk.openapi.IWXAPI;
-import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 //import com.unionpay.UPPayAssistEx;
 
 import org.json.JSONException;

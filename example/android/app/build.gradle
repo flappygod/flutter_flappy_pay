@@ -30,14 +30,31 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+    
+    
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.flappygo.flutter_flappy_pay_example"
+        applicationId "com.yimeiduo.b2b2c"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
+            keyAlias "yimeiduo"
+            keyPassword "123456"
+            storePassword "123456"
+        }
+        release {
+            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
+            keyAlias "yimeiduo"
+            keyPassword "123456"
+            storePassword "123456"
+        }
     }
 
     buildTypes {

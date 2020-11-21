@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flappygo.flutter_flappy_pay">
+    package="com.yimeiduo.flutter_flappy_pay">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -34,7 +34,7 @@
 
         <!-- 微信回调桥接 -->
         <activity
-            android:name=".wxapi.WXPayEntryActivity"
+            android:name="com.yimeiduo.flutter_flappy_pay.wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Translucent">
@@ -48,7 +48,7 @@
             android:name="${applicationId}.wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:targetActivity="com.flappygo.flutter_flappy_pay.wxapi.WXPayEntryActivity"
+            android:targetActivity="com.yimeiduo.flutter_flappy_pay.wxapi.WXPayEntryActivity"
             android:theme="@android:style/Theme.Translucent">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />

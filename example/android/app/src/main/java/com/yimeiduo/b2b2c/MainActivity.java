@@ -1,4 +1,4 @@
-package com.flappygo.flutter_flappy_pay_example;
+package com.yimeiduo.b2b2c;
 
 import io.flutter.embedding.android.FlutterActivity;
 
