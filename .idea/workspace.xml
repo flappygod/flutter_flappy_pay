@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SKZSMFE699999999]" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -97,24 +102,32 @@
       <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state x="479" y="223" key="Github.UntrackedFilesDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362941248" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1638" height="249" key="GridCell.Tab.0.bottom" timestamp="1605955880424">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
+    <state width="1638" height="249" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1605955880424" />
+    <state width="1638" height="249" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1605954948310" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1638" height="249" key="GridCell.Tab.0.center" timestamp="1605955880423">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
+    <state width="1638" height="249" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
+    <state width="1638" height="249" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1605954948309" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1605769639290">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1638" height="249" key="GridCell.Tab.0.left" timestamp="1605955880423">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
+    <state width="1638" height="249" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
+    <state width="1638" height="249" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1605954948309" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1605769639290" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1638" height="249" key="GridCell.Tab.0.right" timestamp="1605955880423">
+      <screen x="0" y="23" width="1680" height="960" />
     </state>
+    <state width="1638" height="249" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
+    <state width="1638" height="249" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1605954948310" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
     <state x="341" y="138" key="SettingsEditor" timestamp="1605942336303">
@@ -126,6 +139,10 @@
       <screen x="0" y="23" width="1920" height="976" />
     </state>
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764447157" />
+    <state x="623" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605949840061">
+      <screen x="0" y="23" width="1680" height="958" />
+    </state>
+    <state x="623" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.958@0.23.1680.958" timestamp="1605949840061" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
