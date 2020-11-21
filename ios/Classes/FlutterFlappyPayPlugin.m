@@ -276,13 +276,12 @@ __weak FlutterFlappyPayPlugin* __plugin;
         return NO;
     }
     //微信支付处理
-    if(__plugin.wxScheme!=nil&& [WXApi handleOpenUniversalLink:userActivity delegate:__plugin]){
-        return TRUE;
+    if(__plugin.wxScheme!=nil ){
+        return [WXApi handleOpenUniversalLink:userActivity delegate:__plugin];
     }
     //银联支付处理
-    if((__plugin.yunScheme!=nil||__plugin.yunCloudScheme!=nil)&&
-       [UMSPPPayUnifyPayPlugin handleOpenUniversalLink:userActivity otherDelegate:__plugin]){
-        return TRUE;
+    if((__plugin.yunScheme!=nil||__plugin.yunCloudScheme!=nil)){
+        return [UMSPPPayUnifyPayPlugin handleOpenUniversalLink:userActivity otherDelegate:__plugin];
     }
     return NO;
 }
