@@ -25,10 +25,10 @@
     <meta-data
         android:name="PPPaySDK"
         android:value="true" />
+
     <meta-data
         android:name="CurrentEnvironment"
         android:value="PROD" />
-
 
     <application>
 
@@ -44,6 +44,7 @@
             </intent-filter>
         </activity>
 
+        <!-- 微信回调桥接 -->
         <activity-alias
             android:name="${applicationId}.wxapi.WXPayEntryActivity"
             android:exported="true"
