@@ -1,7 +1,5 @@
 #import "AppDelegate.h"
 #import "GeneratedPluginRegistrant.h"
-#import "FlutterFlappyPayPlugin.h"
-#import <WechatOpenSDK/WXApi.h>
 
 @implementation AppDelegate
 
@@ -11,7 +9,5 @@
   // Override point for customization after application launch.
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
-
-
 
 @end

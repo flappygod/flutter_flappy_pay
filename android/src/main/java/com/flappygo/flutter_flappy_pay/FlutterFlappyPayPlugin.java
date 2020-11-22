@@ -14,10 +14,7 @@ import com.chinaums.pppay.unify.UnifyPayPlugin;
 import com.chinaums.pppay.unify.UnifyPayRequest;
 import com.flappygo.flutter_flappy_pay.wxapi.WxRegister;
 import com.tencent.mm.opensdk.modelpay.PayReq;
-import com.tencent.mm.opensdk.openapi.IWXAPI;
-import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 import com.unionpay.UPPayAssistEx;
-//import com.unionpay.UPPayAssistEx;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -31,6 +28,8 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
+
+//import com.unionpay.UPPayAssistEx;
 
 /**
  * FlutterFlappyPayPlugin

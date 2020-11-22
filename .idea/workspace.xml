@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/com/flappygo/flutter_flappy_pay/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605942360866</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="xiugai">
+      <created>1605963527267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605963527267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -88,12 +89,14 @@
       <path value="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_flappy_pay" />
     </ignored-roots>
     <MESSAGE value="加入银联支付" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入银联支付" />
+    <MESSAGE value="xiugai" />
+    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1605942360580">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1605963524759">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
+    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1605963524759" />
     <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.956@0.23.1680.956" timestamp="1605942360580" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764442732" />
@@ -105,30 +108,34 @@
       <screen x="0" y="23" width="1920" height="973" />
     </state>
     <state x="479" y="223" key="Github.UntrackedFilesDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362941248" />
-    <state width="1638" height="249" key="GridCell.Tab.0.bottom" timestamp="1605955880424">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom" timestamp="1605963955962">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.956@0.23.1680.956" timestamp="1605963955962" />
     <state width="1638" height="249" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1605955880424" />
     <state width="1638" height="249" key="GridCell.Tab.0.bottom/0.23.1680.961@0.23.1680.961" timestamp="1605954948310" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1638" height="249" key="GridCell.Tab.0.center" timestamp="1605955880423">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1638" height="247" key="GridCell.Tab.0.center" timestamp="1605963955961">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.956@0.23.1680.956" timestamp="1605963955961" />
     <state width="1638" height="249" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
     <state width="1638" height="249" key="GridCell.Tab.0.center/0.23.1680.961@0.23.1680.961" timestamp="1605954948309" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1638" height="249" key="GridCell.Tab.0.left" timestamp="1605955880423">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1638" height="247" key="GridCell.Tab.0.left" timestamp="1605963955961">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.956@0.23.1680.956" timestamp="1605963955961" />
     <state width="1638" height="249" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
     <state width="1638" height="249" key="GridCell.Tab.0.left/0.23.1680.961@0.23.1680.961" timestamp="1605954948309" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1605769639290" />
     <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1638" height="249" key="GridCell.Tab.0.right" timestamp="1605955880423">
-      <screen x="0" y="23" width="1680" height="960" />
+    <state width="1638" height="247" key="GridCell.Tab.0.right" timestamp="1605963955962">
+      <screen x="0" y="23" width="1680" height="956" />
     </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.956@0.23.1680.956" timestamp="1605963955962" />
     <state width="1638" height="249" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1605955880423" />
     <state width="1638" height="249" key="GridCell.Tab.0.right/0.23.1680.961@0.23.1680.961" timestamp="1605954948310" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
@@ -138,9 +145,10 @@
     </state>
     <state x="341" y="138" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1605929674975" />
     <state x="341" y="138" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1605942336303" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1605764447157">
-      <screen x="0" y="23" width="1920" height="976" />
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605963529288">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1605963529288" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764447157" />
     <state x="623" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605949840061">
       <screen x="0" y="23" width="1680" height="958" />
