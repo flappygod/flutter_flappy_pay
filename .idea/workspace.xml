@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605963527267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改支付版本">
+      <created>1606009839775</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606009839775</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -90,13 +95,14 @@
     </ignored-roots>
     <MESSAGE value="加入银联支付" />
     <MESSAGE value="xiugai" />
-    <option name="LAST_COMMIT_MESSAGE" value="xiugai" />
+    <MESSAGE value="修改支付版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改支付版本" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1605963524759">
+    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1606009837127">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1605963524759" />
+    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1606009837127" />
     <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.956@0.23.1680.956" timestamp="1605942360580" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764442732" />
@@ -145,10 +151,10 @@
     </state>
     <state x="341" y="138" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1605929674975" />
     <state x="341" y="138" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1605942336303" />
-    <state x="490" y="245" key="Vcs.Push.Dialog.v2" timestamp="1605963529288">
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606009846988">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1605963529288" />
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1606009846988" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764447157" />
     <state x="623" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605949840061">
       <screen x="0" y="23" width="1680" height="958" />
