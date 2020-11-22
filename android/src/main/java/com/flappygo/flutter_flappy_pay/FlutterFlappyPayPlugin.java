@@ -2,6 +2,7 @@ package com.flappygo.flutter_flappy_pay;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
@@ -19,6 +20,7 @@ import com.unionpay.UPPayAssistEx;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
@@ -28,13 +30,14 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
+import io.flutter.plugin.common.PluginRegistry;
 
 //import com.unionpay.UPPayAssistEx;
 
 /**
  * FlutterFlappyPayPlugin
  */
-public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler, ActivityAware {
+public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler, ActivityAware, PluginRegistry.ActivityResultListener {
     /// The MethodChannel that will the communication between Flutter and native Android
     ///
     /// This local reference serves to register the plugin with the Flutter Engine and unregister it
@@ -53,6 +56,8 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
     //认证
     private static final int SDK_AUTH_FLAG = 2;
 
+    //回调
+    private Result result;
 
     //支付对象
     private static class AliResultModel {
@@ -112,6 +117,8 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
     @Override
     public void onAttachedToActivity(@NonNull ActivityPluginBinding binding) {
         activity = binding.getActivity();
+        //添加这个监听
+        binding.addActivityResultListener(this);
     }
 
     @Override
@@ -245,7 +252,7 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                         result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
                     }
                 });
-                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+                UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
             }
             //支付宝
             else if (flag == 1) {
@@ -258,7 +265,7 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                         result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
                     }
                 });
-                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+                UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
             }
             //银联支付
             else if (flag == 2) {
@@ -271,10 +278,8 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                         result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
                     }
                 });
-                UnifyPayPlugin.getInstance(context).sendPayRequest(request);
+                UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
             }
-
-
         }//银联云闪付
         else if (call.method.equals("yunCloudPay")) {
             try {
@@ -282,16 +287,54 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 final String payInfo = call.argument("payInfo");
                 //支付数据
                 JSONObject jsonObject = new JSONObject(payInfo);
-                //支付
-                UPPayAssistEx.startPay(context, null, null, jsonObject.getString("tn"), "00");
+                //跳转支付
+                UPPayAssistEx.startPay(activity, null, null, jsonObject.getString("tn"), "00");
+                //设置返回
+                this.result = result;
             } catch (JSONException e) {
-                result.success("{\"resultCode\":\"-1\",\"resultInfo\":\"支付失败，参数格式错误\"}");
+                result.success("{\"resultCode\":\"9999\",\"resultInfo\":\"支付失败，参数格式错误\"}");
             }
-
-        }
-        else {
+        } else {
             result.notImplemented();
         }
+    }
+
+
+    @Override
+    public boolean onActivityResult(int requestCode, int resultCode, Intent intent) {
+        //设置
+        switch (requestCode) {
+            //银联支付返回
+            case 10: {
+                //支付控件返回字符串:success、fail、cancel 分别代表支付成功，支付失败，支付取消
+                String payResult = intent.getExtras().getString("pay_result");
+                //解析数据
+                String resultCodeStr = "9999";
+                //支付失败
+                String resultData = "支付失败";
+                //支付结果
+                switch (payResult) {
+                    case "success":
+                        resultCodeStr = "0000";
+                        break;
+                    case "fail":
+                        resultCodeStr = "2003";
+                        break;
+                    case "cancel":
+                        resultCodeStr = "1000";
+                        break;
+                }
+                //返回数据
+                if (intent.hasExtra("result_data")) {
+                    resultData = intent.getExtras().getString("result_data");
+                }
+                result.success("{\"resultCode\":\"" + resultCodeStr + "\",\"resultInfo\":\"" + resultData + "\"}");
+            }
+            break;
+            default:
+                return false;
+        }
+        return false;
     }
 
 
