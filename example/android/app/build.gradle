@@ -33,7 +33,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.yimeiduo.b2b2c"
+        applicationId "com.flappygo.flutter_flappy_pay_example"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
