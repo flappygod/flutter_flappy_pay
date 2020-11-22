@@ -93,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606017426538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改支付版本">
+      <created>1606017478360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606017478360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,11 +113,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改支付版本" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1606017426367">
+    <state x="408" y="85" key="CommitChangelistDialog2" timestamp="1606017478177">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1606010026189" />
-    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.954@0.23.1680.954" timestamp="1606017426367" />
+    <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.954@0.23.1680.954" timestamp="1606017478177" />
     <state x="408" y="85" key="CommitChangelistDialog2/0.23.1680.956@0.23.1680.956" timestamp="1605942360580" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764442732" />
@@ -159,11 +166,11 @@
     </state>
     <state x="341" y="138" key="SettingsEditor/0.23.1680.954@0.23.1680.954" timestamp="1605929674975" />
     <state x="341" y="138" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1605942336303" />
-    <state x="490" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606017443709">
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2" timestamp="1606017482751">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1606009846988" />
-    <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.954@0.23.1680.954" timestamp="1606017443709" />
+    <state x="490" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.954@0.23.1680.954" timestamp="1606017482751" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764447157" />
     <state x="623" y="422" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605949840061">
       <screen x="0" y="23" width="1680" height="958" />

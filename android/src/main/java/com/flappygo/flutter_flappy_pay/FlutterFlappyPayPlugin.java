@@ -61,7 +61,9 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
 
     //支付对象
     private static class AliResultModel {
+        //支付结果
         Map<String, String> payResult;
+        //结果
         Result result;
 
         public Map<String, String> getPayResult() {
@@ -147,7 +149,6 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
             final int flag = Integer.parseInt((String) call.argument("flag"));
             //返回
             Runnable authRunnable = new Runnable() {
-
                 @Override
                 public void run() {
                     // 构造AuthTask 对象
@@ -249,7 +250,14 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
                     @Override
                     public void onResult(String resultCode, String resultInfo) {
-                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                        try {
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("resultCode", resultCode == null ? "" : resultCode);
+                            jsonObject.put("resultInfo", resultInfo == null ? "" : resultInfo);
+                            result.success(jsonObject.toString());
+                        } catch (JSONException e) {
+                            result.success("{\"resultCode\":\"9999\",\"resultInfo\":\"支付失败,返回数据异常\"}");
+                        }
                     }
                 });
                 UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
@@ -262,7 +270,14 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
                     @Override
                     public void onResult(String resultCode, String resultInfo) {
-                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                        try {
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("resultCode", resultCode == null ? "" : resultCode);
+                            jsonObject.put("resultInfo", resultInfo == null ? "" : resultInfo);
+                            result.success(jsonObject.toString());
+                        } catch (JSONException e) {
+                            result.success("{\"resultCode\":\"9999\",\"resultInfo\":\"支付失败,返回数据异常\"}");
+                        }
                     }
                 });
                 UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
@@ -275,7 +290,14 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 UnifyPayPlugin.getInstance(context).setListener(new UnifyPayListener() {
                     @Override
                     public void onResult(String resultCode, String resultInfo) {
-                        result.success("{\"resultCode\":\"" + resultCode + "\",\"resultInfo\":\"" + resultInfo + "\"}");
+                        try {
+                            JSONObject jsonObject = new JSONObject();
+                            jsonObject.put("resultCode", resultCode == null ? "" : resultCode);
+                            jsonObject.put("resultInfo", resultInfo == null ? "" : resultInfo);
+                            result.success(jsonObject.toString());
+                        } catch (JSONException e) {
+                            result.success("{\"resultCode\":\"9999\",\"resultInfo\":\"支付失败,返回数据异常\"}");
+                        }
                     }
                 });
                 UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
