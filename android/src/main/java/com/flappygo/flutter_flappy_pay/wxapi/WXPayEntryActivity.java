@@ -1,6 +1,7 @@
 package com.flappygo.flutter_flappy_pay.wxapi;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -21,7 +22,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
-
+    //和其他包统一
+    private static final String ACTION_WECHAT_RESP = "com.flappygo.wechat.action.WECHAT_RESP";
+    //修改
+    private static final String KEY_WECHAT_RESP = "wechat_resp";
     //修改修改
     private static final String TAG = "WXPayEntryActivity";
     //微信支付
@@ -30,6 +34,9 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //修改getIntent
+        sendWechatResp(getApplicationContext(), getIntent());
+        //获取微信api
         wxApi = WxRegister.getWxAPi();
         //这里是微信官方的返回方法回调
         if (wxApi != null) {
@@ -46,6 +53,7 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);
+        sendWechatResp(getApplicationContext(), intent);
         //判空
         if (wxApi != null) {
             wxApi.handleIntent(intent, this);
@@ -97,5 +105,14 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
         Intent intent = getPackageManager().getLaunchIntentForPackage(getPackageName());
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         getApplicationContext().startActivity(intent);
+    }
+
+    //发送广播进行其他插件的告知
+    public static void sendWechatResp(Context context, Intent resp) {
+        Intent intent = new Intent();
+        intent.setAction(ACTION_WECHAT_RESP);
+        intent.putExtra(KEY_WECHAT_RESP, resp);
+        intent.setPackage(context.getPackageName());
+        context.sendBroadcast(intent);
     }
 }
