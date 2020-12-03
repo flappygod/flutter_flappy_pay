@@ -54,40 +54,39 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
     @Override
     public void onResp(BaseResp baseResp) {
 
-        //支付结果接收
+        //如果是官方的微信支付方式回调
+        if (WxRegister.getCallback() != null) {
+            Map<String, String> resultMap = new HashMap<String, String>();
+            resultMap.put("errCode", "" + baseResp.errCode);
+            resultMap.put("errStr", baseResp.errStr);
+            resultMap.put("transaction", baseResp.transaction);
+            resultMap.put("openId", baseResp.openId);
+
+            switch (baseResp.getType()) {
+                case ConstantsAPI.COMMAND_PAY_BY_WX: {
+                    PayResp wxPayResp = (PayResp) baseResp;
+                    resultMap.put("prepayId", wxPayResp.prepayId);
+                    resultMap.put("extData", wxPayResp.extData);
+                    resultMap.put("returnKey", wxPayResp.returnKey);
+                }
+                break;
+            }
+            JSONObject jsonObject = new JSONObject(resultMap);
+            WxRegister.getCallback().success(jsonObject.toString());
+            finish();
+            return;
+        }
+
+        //如果是银联支付返回结果
         if (baseResp.getType() == ConstantsAPI.COMMAND_LAUNCH_WX_MINIPROGRAM) {
             UnifyPayPlugin.getInstance(this).getWXListener().onResponse(this, baseResp);
             return;
         }
 
-        Log.e(TAG, "微信支付回调");
-        if (WxRegister.getCallback() == null) {
-            Log.d(TAG, "CallbackContext 无效");
-            startMainActivity();
-            return;
-        }
+        //仍然没有执行，执行逻辑
+        startMainActivity();
 
-        Map<String, String> resultMap = new HashMap<String, String>();
-        resultMap.put("errCode", "" + baseResp.errCode);
-        resultMap.put("errStr", baseResp.errStr);
-        resultMap.put("transaction", baseResp.transaction);
-        resultMap.put("openId", baseResp.openId);
 
-        switch (baseResp.getType()) {
-            case ConstantsAPI.COMMAND_PAY_BY_WX: {
-                PayResp wxPayResp = (PayResp) baseResp;
-                resultMap.put("prepayId", wxPayResp.prepayId);
-                resultMap.put("extData", wxPayResp.extData);
-                resultMap.put("returnKey", wxPayResp.returnKey);
-            }
-            break;
-        }
-
-        Log.d(TAG, "wechat return ::" + resultMap.toString());
-        JSONObject jsonObject = new JSONObject(resultMap);
-        WxRegister.getCallback().success(jsonObject.toString());
-
-        finish();
     }
 
     //启动主页面

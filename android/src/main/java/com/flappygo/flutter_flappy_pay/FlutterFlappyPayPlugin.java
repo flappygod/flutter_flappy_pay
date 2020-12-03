@@ -238,6 +238,8 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
         }
         //银联支付
         else if (call.method.equals("yunPay")) {
+            //先清空回调
+            WxRegister.setCallback(null);
             //订单信息
             final String payInfo = call.argument("payInfo");
             //flag
@@ -302,7 +304,8 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
                 });
                 UnifyPayPlugin.getInstance(activity).sendPayRequest(request);
             }
-        }//银联云闪付
+        }
+        //银联云闪付
         else if (call.method.equals("yunCloudPay")) {
             try {
                 //订单信息
