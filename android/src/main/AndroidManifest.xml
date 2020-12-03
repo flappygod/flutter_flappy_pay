@@ -4,6 +4,16 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc.hce"/>
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
 
     <supports-screens
         android:anyDensity="true"
@@ -12,6 +22,13 @@
         android:resizeable="true"
         android:smallScreens="true" />
 
+    <meta-data
+        android:name="PPPaySDK"
+        android:value="true" />
+
+    <meta-data
+        android:name="CurrentEnvironment"
+        android:value="PROD" />
 
     <application>
 
@@ -27,6 +44,7 @@
             </intent-filter>
         </activity>
 
+        <!-- 微信回调桥接 -->
         <activity-alias
             android:name="${applicationId}.wxapi.WXPayEntryActivity"
             android:exported="true"
@@ -38,6 +56,19 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity-alias>
+
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name="com.unionpay.UPPayWapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
 
     </application>
 

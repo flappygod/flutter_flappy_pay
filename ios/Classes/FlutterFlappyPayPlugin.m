@@ -13,6 +13,7 @@ __weak FlutterFlappyPayPlugin* __plugin;
                                      methodChannelWithName:@"flutter_flappy_pay"
                                      binaryMessenger:[registrar messenger]];
     FlutterFlappyPayPlugin* instance = [[FlutterFlappyPayPlugin alloc] init];
+    [registrar addApplicationDelegate:instance];
     [registrar addMethodCallDelegate:instance channel:channel];
     __plugin=instance;
 }
@@ -59,7 +60,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if ([@"aliAuth" isEqualToString:call.method]) {
         NSString* authInfo=call.arguments[@"authInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        //清空scheme
         _aliScheme=appScheme;
+        _wxScheme=nil;
+        _yunScheme=nil;
+        _yunCloudScheme=nil;
         __weak typeof(self) safeSelf=self;
         //调用授权方法
         [[AlipaySDK defaultService] auth_V2WithInfo:authInfo
@@ -77,7 +82,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         //获取支付信息
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
+        //清空scheme
         _aliScheme=appScheme;
+        _wxScheme=nil;
+        _yunScheme=nil;
+        _yunCloudScheme=nil;
         __weak typeof(self) safeSelf=self;
         //调用支付结果开始支付
         [[AlipaySDK defaultService] payOrder:payInfo
@@ -89,7 +98,6 @@ __weak FlutterFlappyPayPlugin* __plugin;
                 safeSelf.result=nil;
             }
         }];
-        
     }
     //微信支付
     else if ([@"wxPay" isEqualToString:call.method]) {
@@ -97,7 +105,11 @@ __weak FlutterFlappyPayPlugin* __plugin;
         NSString* payInfo=call.arguments[@"payInfo"];
         NSString* appScheme=call.arguments[@"appScheme"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        //清空scheme
+        _aliScheme=nil;
         _wxScheme=appScheme;
+        _yunScheme=nil;
+        _yunCloudScheme=nil;
         //支付信息解析
         NSDictionary * payParam =  [FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //需要的
@@ -136,23 +148,26 @@ __weak FlutterFlappyPayPlugin* __plugin;
     //调用银联支付
     else if ([@"yunPay" isEqualToString:call.method]) {
         NSString* payInfo=call.arguments[@"payInfo"];
+        NSString* appScheme=call.arguments[@"appScheme"];
         NSString* payChannel=call.arguments[@"payChannel"];
         NSString* universalLink=call.arguments[@"universalLink"];
+        //清空scheme
+        _aliScheme=nil;
+        _wxScheme=nil;
+        _yunScheme=appScheme;
+        _yunCloudScheme=nil;
         //解析
         NSDictionary* dic=[FlutterFlappyPayPlugin jsonToDictionary:payInfo];
         //0微信
         if(payChannel.intValue==0){
             //初始化微信API
-            if(_umpInited==false){
-                //初始化
-                _umpInited=[UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
-                                                 universalLink:universalLink];
-            }
+            [UMSPPPayUnifyPayPlugin registerApp:dic[@"appid"]
+                                  universalLink:universalLink];
             //数据
             NSString *payDataJsonStr = [[NSString alloc] initWithData:
                                         [NSJSONSerialization dataWithJSONObject:dic
                                                                         options:NSJSONWritingPrettyPrinted error:nil]
-                                                                       encoding:NSUTF8StringEncoding];
+                                                             encoding:NSUTF8StringEncoding];
             __weak typeof(self) safeSelf=self;
             [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN
                                               payData:payDataJsonStr
@@ -200,9 +215,50 @@ __weak FlutterFlappyPayPlugin* __plugin;
             }];
         }
         
+    }
+    else if ([@"yunCloudPay" isEqualToString:call.method]) {
+        //支付信息
+        NSString* payInfo=call.arguments[@"payInfo"];
+        //当前scheme
+        NSString* appScheme=call.arguments[@"appScheme"];
+        //清空scheme
+        _aliScheme=nil;
+        _wxScheme=nil;
+        _yunScheme=nil;
+        _yunCloudScheme=appScheme;
+        //拿到最顶层的controller
+        UIViewController *topController = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];
+        //定义
+        __weak typeof(self) safeSelf=self;
+        //cloudPay
+        [UMSPPPayUnifyPayPlugin cloudPayWithURLSchemes:appScheme
+                                               payData:payInfo
+                                        viewController:topController
+                                         callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+            NSMutableDictionary* dic=[[NSMutableDictionary alloc]init];
+            dic[@"resultCode"]=resultCode;
+            dic[@"resultInfo"]=resultInfo;
+            NSString* ret=[FlutterFlappyPayPlugin dictionaryTojson:dic];
+            if(safeSelf.result!=nil){
+                safeSelf.result(ret);
+                safeSelf.result=nil;
+            }
+        }];
     }else {
         result(FlutterMethodNotImplemented);
     }
+}
+
+//这里是获取整个应用的顶部Controller;
+- (UIViewController *)_topViewController:(UIViewController *)vc {
+    if ([vc isKindOfClass:[UINavigationController class]]) {
+        return [self _topViewController:[(UINavigationController *)vc topViewController]];
+    } else if ([vc isKindOfClass:[UITabBarController class]]) {
+        return [self _topViewController:[(UITabBarController *)vc selectedViewController]];
+    } else {
+        return vc;
+    }
+    return nil;
 }
 
 
@@ -219,20 +275,34 @@ __weak FlutterFlappyPayPlugin* __plugin;
     if(!__plugin){
         return NO;
     }
-    return [WXApi handleOpenUniversalLink:userActivity delegate:__plugin];
+    //微信支付处理
+    if(__plugin.wxScheme!=nil ){
+        return [WXApi handleOpenUniversalLink:userActivity delegate:__plugin];
+    }
+    //银联支付处理
+    if((__plugin.yunScheme!=nil||__plugin.yunCloudScheme!=nil)){
+        return [UMSPPPayUnifyPayPlugin handleOpenUniversalLink:userActivity otherDelegate:__plugin];
+    }
+    return NO;
 }
 
 //回调通知
 - (BOOL)handleOpenURL:(NSURL*)url {
-    NSLog(@"reslut = %@",url);
-    NSLog(@"url.scheme = %@",url.scheme);
     //支付宝处理
-    if( [url.scheme isEqualToString:_aliScheme] ){
+    if(_aliScheme!=nil&& [url.scheme isEqualToString:_aliScheme] ){
         return [self handleAli:url];
     }
     //微信处理
-    else if( [url.scheme isEqualToString:_wxScheme] ){
+    if(_wxScheme!=nil&&  [url.scheme isEqualToString:_wxScheme] ){
         return [WXApi handleOpenURL:url delegate:self];
+    }
+    //银联支付
+    if(_yunScheme!=nil&&  [url.scheme isEqualToString:_yunScheme] ){
+        return [UMSPPPayUnifyPayPlugin handleOpenURL:url otherDelegate:self];
+    }
+    //银联云闪付
+    if(_yunCloudScheme &&  [url.scheme isEqualToString:_yunCloudScheme]){
+        return   [UMSPPPayUnifyPayPlugin cloudPayHandleOpenURL:url];
     }
     return NO;
 }
@@ -252,6 +322,14 @@ __weak FlutterFlappyPayPlugin* __plugin;
                 weakSelf.result=nil;
             }
         }];
+        // 授权跳转支付宝钱包进行支付，处理支付结果
+        [[AlipaySDK defaultService] processAuth_V2Result:url standbyCallback:^(NSDictionary *resultDic) {
+            NSLog(@"result = %@",resultDic);
+            if(weakSelf.result!=nil){
+                weakSelf.result([FlutterFlappyPayPlugin dictionaryTojson:resultDic]);
+                weakSelf.result=nil;
+            }
+        }];
         return YES;
     }
     return NO;
@@ -263,6 +341,8 @@ __weak FlutterFlappyPayPlugin* __plugin;
     return [WXApi handleOpenURL:url delegate:self];
 }
 
+
+#pragma WXApiDelegate
 //微信代理处理
 - (void) onReq:(BaseReq *)req{
     NSLog(@"onReq....");
@@ -291,6 +371,26 @@ __weak FlutterFlappyPayPlugin* __plugin;
         }
     }
 }
+
+
+/**
+ 回调通知
+ */
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    return [FlutterFlappyPayPlugin handleOpenURL:url];
+}
+
+// ios 9.0+
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options{
+    return [FlutterFlappyPayPlugin handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication*)application
+continueUserActivity:(NSUserActivity*)userActivity
+ restorationHandler:(void (^)(NSArray*))restorationHandler{
+    return [FlutterFlappyPayPlugin handleOpenUniversalLink:userActivity delegate:self];
+}
+
 
 
 @end

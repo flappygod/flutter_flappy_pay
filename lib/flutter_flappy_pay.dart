@@ -13,7 +13,6 @@ enum YunPayType {
 }
 
 class FlutterFlappyPay {
-
   //channel
   static const MethodChannel _channel = const MethodChannel('flutter_flappy_pay');
 
@@ -48,7 +47,7 @@ class FlutterFlappyPay {
   }
 
   //使用银联支付
-  static Future<Map> yunPay(String payInfo, YunPayType payChannel) async {
+  static Future<Map> yunPay(String payInfo, String appScheme, String universalLink, YunPayType payChannel) async {
     int type = 0;
     switch (payChannel) {
       case YunPayType.TYPE_WX:
@@ -63,7 +62,18 @@ class FlutterFlappyPay {
     }
     final String data = await _channel.invokeMethod('yunPay', <String, dynamic>{
       'payInfo': payInfo,
+      'appScheme': appScheme,
+      'universalLink': universalLink,
       'payChannel': type.toString(),
+    });
+    return jsonDecode(data);
+  }
+
+  //支付
+  static Future<Map> yunCloudPay(String payInfo, String appScheme) async {
+    final String data = await _channel.invokeMethod('yunCloudPay', <String, dynamic>{
+      'payInfo': payInfo,
+      'appScheme': appScheme,
     });
     return jsonDecode(data);
   }
