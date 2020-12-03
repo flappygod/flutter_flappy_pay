@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXEntryActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CTN5T20413002319]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -73,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606960415918</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改支付回调">
+      <created>1606962101592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606962101592</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改支付回调">
+      <created>1606962229107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606962229107</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -82,12 +105,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改支付回调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1606960415569">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1606962228977">
+      <screen x="0" y="23" width="1920" height="976" />
     </state>
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
-    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1605764442732" />
+    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1606962228977" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1606960415569" />
+    <state x="192" y="110" key="DiffContextDialog" timestamp="1606962132107">
+      <screen x="0" y="23" width="1920" height="976" />
+    </state>
+    <state x="192" y="110" key="DiffContextDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962132107" />
     <state x="799" y="413" key="Github.ShareDialog" timestamp="1603362916869">
       <screen x="0" y="23" width="1920" height="973" />
     </state>
@@ -116,28 +143,40 @@
     </state>
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
     <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606960422428">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="192" y="110" key="MergeDialog" timestamp="1606962116120">
+      <screen x="0" y="23" width="1920" height="976" />
     </state>
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1605764447157" />
+    <state x="192" y="110" key="MergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962116120" />
+    <state x="596" y="279" key="MultipleFileMergeDialog" timestamp="1606962118618">
+      <screen x="0" y="23" width="1920" height="976" />
+    </state>
+    <state x="596" y="279" key="MultipleFileMergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962118618" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606962233347">
+      <screen x="0" y="23" width="1920" height="976" />
+    </state>
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1606962233347" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1606960422428" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.982@0.23.1920.982" timestamp="1605779131155" />
     <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606960571165">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.978@0.23.1920.978" timestamp="1606960571165" />
+    <state x="429" y="306" key="git4idea.merge.GitPullDialog" timestamp="1606962108447">
+      <screen x="0" y="23" width="1920" height="976" />
+    </state>
+    <state x="429" y="306" key="git4idea.merge.GitPullDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962108447" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>60</line>
+          <line>64</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
-          <line>59</line>
+          <line>58</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
