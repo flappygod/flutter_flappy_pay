@@ -81,7 +81,6 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
         //如果是银联支付返回结果
         if (baseResp.getType() == ConstantsAPI.COMMAND_LAUNCH_WX_MINIPROGRAM) {
             UnifyPayPlugin.getInstance(this).getWXListener().onResponse(this, baseResp);
-            return;
         }
 
         //仍然没有执行，执行逻辑
