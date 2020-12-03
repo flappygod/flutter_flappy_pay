@@ -59,29 +59,18 @@
 
 
         <!-- 微信回调桥接 -->
-        <activity
-            android:name=".wxapi.WXEntryActivity"
-            android:exported="true"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Translucent">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-
-        <!-- 微信回调桥接 -->
         <activity-alias
             android:name="${applicationId}.wxapi.WXEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:targetActivity="com.flappygo.flutter_flappy_pay.wxapi.WXEntryActivity"
+            android:targetActivity="com.flappygo.flutter_flappy_pay.wxapi.WXPayEntryActivity"
             android:theme="@android:style/Theme.Translucent">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity-alias>
+
 
         <activity
             android:name="com.unionpay.uppay.PayActivity"

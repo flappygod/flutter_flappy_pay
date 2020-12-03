@@ -21,6 +21,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
+
+    //修改修改
     private static final String TAG = "WXPayEntryActivity";
     //微信支付
     private IWXAPI wxApi = null;
@@ -44,7 +46,10 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
         setIntent(intent);
-        wxApi.handleIntent(intent, this);
+        //判空
+        if (wxApi != null) {
+            wxApi.handleIntent(intent, this);
+        }
     }
 
     @Override
