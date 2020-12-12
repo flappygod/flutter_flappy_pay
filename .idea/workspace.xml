@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXEntryActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXPayEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXPayEntryActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,11 +155,11 @@
       <screen x="0" y="23" width="1920" height="976" />
     </state>
     <state x="596" y="279" key="MultipleFileMergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962118618" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606965295318">
-      <screen x="0" y="23" width="1920" height="976" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606994859361">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1606965295318" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1606960422428" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1606994859361" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.982@0.23.1920.982" timestamp="1605779131155" />
     <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606960571165">
       <screen x="0" y="23" width="1920" height="978" />

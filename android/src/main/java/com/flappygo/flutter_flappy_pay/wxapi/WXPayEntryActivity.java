@@ -87,8 +87,6 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
             }
             JSONObject jsonObject = new JSONObject(resultMap);
             WxRegister.getCallback().success(jsonObject.toString());
-            finish();
-            return;
         }
 
         //如果是银联支付返回结果
@@ -98,6 +96,8 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
 
         //仍然没有执行，执行逻辑
         startMainActivity();
+        //销毁了
+        finish();
     }
 
     //启动主页面
