@@ -17,37 +17,37 @@ class FlutterFlappyPay {
   static const MethodChannel _channel = const MethodChannel('flutter_flappy_pay');
 
   //支付宝授权
-  static Future<Map> aliAuth(String authInfo, String appScheme, bool androidFlag) async {
-    final String data = await _channel.invokeMethod('aliAuth', <String, dynamic>{
+  static Future<Map?> aliAuth(String authInfo, String appScheme, bool androidFlag) async {
+    final String data = await (_channel.invokeMethod('aliAuth', <String, dynamic>{
       'authInfo': authInfo,
       'appScheme': appScheme,
       'flag': androidFlag ? "1" : "0",
-    });
+    }) as FutureOr<String>);
     return jsonDecode(data);
   }
 
   //支付宝支付
-  static Future<Map> aliPay(String payInfo, String appScheme, bool androidFlag) async {
-    final String data = await _channel.invokeMethod('aliPay', <String, dynamic>{
+  static Future<Map?> aliPay(String payInfo, String appScheme, bool androidFlag) async {
+    final String data = await (_channel.invokeMethod('aliPay', <String, dynamic>{
       'payInfo': payInfo,
       'appScheme': appScheme,
       'flag': androidFlag ? "1" : "0",
-    });
+    }) as FutureOr<String>);
     return jsonDecode(data);
   }
 
   //进行微信支付
-  static Future<Map> wxPay(String payInfo, String appScheme, String universalLink) async {
-    final String data = await _channel.invokeMethod('wxPay', <String, dynamic>{
+  static Future<Map?> wxPay(String payInfo, String appScheme, String universalLink) async {
+    final String data = await (_channel.invokeMethod('wxPay', <String, dynamic>{
       'payInfo': payInfo,
       'appScheme': appScheme,
       'universalLink': universalLink,
-    });
+    }) as FutureOr<String>);
     return jsonDecode(data);
   }
 
   //使用银联支付
-  static Future<Map> yunPay(String payInfo, String appScheme, String universalLink, YunPayType payChannel) async {
+  static Future<Map?> yunPay(String payInfo, String appScheme, String universalLink, YunPayType payChannel) async {
     int type = 0;
     switch (payChannel) {
       case YunPayType.TYPE_WX:
@@ -60,21 +60,21 @@ class FlutterFlappyPay {
         type = 2;
         break;
     }
-    final String data = await _channel.invokeMethod('yunPay', <String, dynamic>{
+    final String data = await (_channel.invokeMethod('yunPay', <String, dynamic>{
       'payInfo': payInfo,
       'appScheme': appScheme,
       'universalLink': universalLink,
       'payChannel': type.toString(),
-    });
+    }) as FutureOr<String>);
     return jsonDecode(data);
   }
 
   //支付
-  static Future<Map> yunCloudPay(String payInfo, String appScheme) async {
-    final String data = await _channel.invokeMethod('yunCloudPay', <String, dynamic>{
+  static Future<Map?> yunCloudPay(String payInfo, String appScheme) async {
+    final String data = await (_channel.invokeMethod('yunCloudPay', <String, dynamic>{
       'payInfo': payInfo,
       'appScheme': appScheme,
-    });
+    }) as FutureOr<String>);
     return jsonDecode(data);
   }
 }
