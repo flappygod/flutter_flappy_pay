@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_flappy_pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_flappy_pay/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +38,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -115,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607742982412</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改微信支付回调">
+      <created>1615949734814</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615949734814</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,66 +128,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改微信支付回调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1607742982258">
+    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1615949731975">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
-    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1606965080016" />
-    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1607742982258" />
-    <state x="192" y="110" key="DiffContextDialog" timestamp="1606962132107">
-      <screen x="0" y="23" width="1920" height="976" />
+    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1615949731975" />
+    <state x="461" y="150" key="SettingsEditor" timestamp="1615959830389">
+      <screen x="0" y="23" width="1920" height="980" />
     </state>
-    <state x="192" y="110" key="DiffContextDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962132107" />
-    <state x="799" y="413" key="Github.ShareDialog" timestamp="1603362916869">
-      <screen x="0" y="23" width="1920" height="973" />
+    <state x="461" y="150" key="SettingsEditor/0.23.1920.980@0.23.1920.980" timestamp="1615959830389" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1615959937945">
+      <screen x="0" y="23" width="1920" height="980" />
     </state>
-    <state x="799" y="413" key="Github.ShareDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362916869" />
-    <state x="479" y="223" key="Github.UntrackedFilesDialog" timestamp="1603362941248">
-      <screen x="0" y="23" width="1920" height="973" />
-    </state>
-    <state x="479" y="223" key="Github.UntrackedFilesDialog/0.23.1920.973@0.23.1920.973" timestamp="1603362941248" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
-    <state width="1878" height="257" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
-    <state width="1878" height="257" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left" timestamp="1605769639290">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1605769639290" />
-    <state width="1878" height="257" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right" timestamp="1605769639291">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1605769639291" />
-    <state width="1878" height="257" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1603352862629" />
-    <state x="192" y="110" key="MergeDialog" timestamp="1606962116120">
-      <screen x="0" y="23" width="1920" height="976" />
-    </state>
-    <state x="192" y="110" key="MergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962116120" />
-    <state x="596" y="279" key="MultipleFileMergeDialog" timestamp="1606962118618">
-      <screen x="0" y="23" width="1920" height="976" />
-    </state>
-    <state x="596" y="279" key="MultipleFileMergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962118618" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1607742986715">
-      <screen x="0" y="23" width="1920" height="978" />
-    </state>
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1606965295318" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1607742986715" />
-    <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.982@0.23.1920.982" timestamp="1605779131155" />
-    <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606960571165">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.980@0.23.1920.980" timestamp="1615959937945" />
+    <state x="652" y="236" width="615" height="548" key="find.popup" timestamp="1615969474286">
+      <screen x="0" y="23" width="1920" height="975" />
     </state>
-    <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.978@0.23.1920.978" timestamp="1606960571165" />
-    <state x="429" y="306" key="git4idea.merge.GitPullDialog" timestamp="1606962108447">
-      <screen x="0" y="23" width="1920" height="976" />
-    </state>
-    <state x="429" y="306" key="git4idea.merge.GitPullDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962108447" />
+    <state x="652" y="236" width="615" height="548" key="find.popup/0.23.1920.975@0.23.1920.975" timestamp="1615969474286" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
