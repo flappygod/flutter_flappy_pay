@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_flappy_pay/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/flutter_flappy_pay/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606965080156</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改微信支付回调">
+      <created>1607742982412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607742982412</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,12 +125,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改微信支付回调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1606965080016">
-      <screen x="0" y="23" width="1920" height="976" />
+    <state x="466" y="86" key="CommitChangelistDialog2" timestamp="1607742982258">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.973@0.23.1920.973" timestamp="1603363018832" />
     <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.976@0.23.1920.976" timestamp="1606965080016" />
-    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1606960415569" />
+    <state x="466" y="86" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1607742982258" />
     <state x="192" y="110" key="DiffContextDialog" timestamp="1606962132107">
       <screen x="0" y="23" width="1920" height="976" />
     </state>
@@ -155,11 +171,11 @@
       <screen x="0" y="23" width="1920" height="976" />
     </state>
     <state x="596" y="279" key="MultipleFileMergeDialog/0.23.1920.976@0.23.1920.976" timestamp="1606962118618" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1606994859361">
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1607742986715">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.976@0.23.1920.976" timestamp="1606965295318" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1606994859361" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1607742986715" />
     <state x="560" y="252" key="Vcs.Push.Dialog.v2/0.23.1920.982@0.23.1920.982" timestamp="1605779131155" />
     <state x="743" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606960571165">
       <screen x="0" y="23" width="1920" height="978" />
