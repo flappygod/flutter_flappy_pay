@@ -50,6 +50,9 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
     //页面
     private Activity activity;
 
+    //binding
+    private ActivityPluginBinding activityPluginBinding;
+
     //支付
     private static final int SDK_PAY_FLAG = 1;
 
@@ -118,24 +121,41 @@ public class FlutterFlappyPayPlugin implements FlutterPlugin, MethodCallHandler,
 
     @Override
     public void onAttachedToActivity(@NonNull ActivityPluginBinding binding) {
-        activity = binding.getActivity();
-        //添加这个监听
-        binding.addActivityResultListener(this);
+        addBinding(binding);
     }
 
     @Override
     public void onReattachedToActivityForConfigChanges(@NonNull ActivityPluginBinding binding) {
-        activity = binding.getActivity();
+        addBinding(binding);
     }
-
+    
     @Override
     public void onDetachedFromActivityForConfigChanges() {
-        activity = null;
+        
     }
 
     @Override
     public void onDetachedFromActivity() {
+        removeBinding();
+    }
+
+    //绑定关系
+    private void addBinding(ActivityPluginBinding binding) {
+        if (activityPluginBinding != null) {
+            activityPluginBinding.removeActivityResultListener(this);
+        }
+        activity = binding.getActivity();
+        activityPluginBinding = binding;
+        activityPluginBinding.addActivityResultListener(this);
+    }
+    
+    //移除关系
+    private void removeBinding(){
+        if (activityPluginBinding != null) {
+            activityPluginBinding.removeActivityResultListener(this);
+        }
         activity = null;
+        activityPluginBinding = null;
     }
 
     @Override
