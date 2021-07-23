@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-    </list>
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="修改binding" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627056137986</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修改binding">
+      <created>1627057684523</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627057684523</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,20 +170,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改binding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1627056137744">
+    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1627057868659">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
-    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1627054784583" />
-    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.951@0.25.1680.951" timestamp="1627056137744" />
+    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1627057684257" />
+    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.951@0.25.1680.951" timestamp="1627057868659" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1627054756248">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.25.1680.949@0.25.1680.949" timestamp="1627054756248" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1627056142567">
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1627057894355">
       <screen x="0" y="25" width="1680" height="951" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1627054861364" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.951@0.25.1680.951" timestamp="1627056142567" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1627057687962" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.951@0.25.1680.951" timestamp="1627057894355" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
