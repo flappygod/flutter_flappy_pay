@@ -4,331 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/example_lib_main_dart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/BaiduLBS_Android.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/BaiduLBS_Android.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/UPPayAssistEx.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/UPPayAssistEx.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/UPPayPluginExPro.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/UPPayPluginExPro.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/alipaySdk-15.7.9-20200727142846.aar" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/alipaySdk-15.7.9-20200727142846.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libentryexpro.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libentryexpro.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/liblocSDK7a.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/liblocSDK7a.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libuptsmaddon.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libuptsmaddon.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/arm64-v8a/libuptsmaddonmi.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/arm64-v8a/libuptsmaddonmi.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libentryexpro.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libentryexpro.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/liblocSDK7a.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/liblocSDK7a.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libuptsmaddon.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libuptsmaddon.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/libuptsmaddonmi.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi-v7a/libuptsmaddonmi.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libentryexpro.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libentryexpro.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/liblocSDK7a.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/liblocSDK7a.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libuptsmaddon.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libuptsmaddon.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/armeabi/libuptsmaddonmi.so" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/armeabi/libuptsmaddonmi.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/libs/qmf-ppplugin-android-3.0.7.aar" beforeDir="false" afterPath="$PROJECT_DIR$/android/libs/qmf-ppplugin-android-3.0.7.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/assets/data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/FlutterFlappyPayPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXPayEntryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WXPayEntryActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WxRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/flappygo/flutter_flappy_pay/wxapi/WxRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/example/.metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.h" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/main.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter_flappy_pay.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_flappy_pay.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/FlutterFlappyPayPlugin.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayFastPay.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayFastPay.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayOrder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayPluginSettings.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayPluginSettings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayPosPay.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayPosPay.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayUnifyPayPlugin.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayUnifyPayPlugin.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayVersionsInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/include/UMSPPPayVersionsInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/alipay_msp_back@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/alipay_msp_back@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/alipay_msp_refresh@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/alipay_msp_refresh@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/bar@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/bar@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/bridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/bridge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/refresh@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/refresh@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/refresh_click@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/refresh_click@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/shutdown@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/shutdown@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/shutdown_click@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.bundle/shutdown_click@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/AlipaySDK" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/AlipaySDK" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/AlipaySDK-inside-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/AlipaySDK-inside-Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AFServiceCenter.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AFServiceCenter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AFServiceResponse.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AFServiceResponse.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/APayAuthInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/APayAuthInfo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AlipaySDK.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/AlipaySDK.framework/Headers/AlipaySDK.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0100.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0102.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0102.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0103.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0103.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0104.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0104.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0105.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0105.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0301.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0301.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0302.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0302.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0303.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0303.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0304.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0304.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0305.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0305.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0306.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0306.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0307.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0307.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0308.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0308.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0309.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0309.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0310.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0401.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0401.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0403.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0403.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0410.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/0410.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStong_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStong_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStong_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStong_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete1@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_delete@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_next@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_next@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_next@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_POStongzhifu_next@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_QRLogo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_QRLogo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_QRLogo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_QRLogo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_accountLogo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_accountLogo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_accountLogo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_accountLogo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard_arrow@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard_arrow@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard_arrow@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_addNewCard_arrow@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_add_card_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_add_card_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_add_card_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_add_card_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_agree@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_agree@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_agree@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_agree@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_back_white@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_back_white@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_back_white@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_back_white@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_bank_selected@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_bank_selected@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_bank_selected@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_bank_selected@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_cardSelected@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_cardSelected@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_cardSelected@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_cardSelected@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_close@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_close@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_close@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_close@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_bg@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_bg@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_bg@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_bg@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_expired@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_expired@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_expired@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_expired@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_history@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_history@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_history@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_history@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_more@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_more@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_more@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_more@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_placeholder@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_placeholder@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_placeholder@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_placeholder@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_selected@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_selected@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_selected@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_selected@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_unselected@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_unselected@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_unselected@3x.png@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_unselected@3x.png@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_used@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_used@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_used@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_coupon_used@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_disagree@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_disagree@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_disagree@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_disagree@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_fastPayBackGround@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_fastPayBackGround@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_fastPayBackGround@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_fastPayBackGround@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_guanyuwomen_icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_guanyuwomen_icon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_guanyuwomen_icon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_guanyuwomen_icon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_help_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_help_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_help_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_help_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_orange_back_icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_orange_back_icon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_orange_back_icon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_orange_back_icon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_password_frame@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_password_frame@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_password_frame@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_password_frame@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_payFailed@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_payFailed@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_payFailed@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_payFailed@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_paySuccess@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_paySuccess@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_paySuccess@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_paySuccess@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumClose@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumClose@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumClose@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumClose@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumOpen@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumOpen@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumOpen@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumOpen@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumSelected@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumSelected@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumSelected@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_prettySumSelected@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua_log@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua_log@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua_log@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_quanminhua_log@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_set_up@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_set_up@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_set_up@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_set_up@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_setting_more@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_setting_more@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_setting_more@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_setting_more@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_fail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_fail@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_fail@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_fail@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_success@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_success@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_success@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_trade_success@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_ums_logo@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_ums_logo@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_ums_logo@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_ums_logo@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_warning_orange@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_warning_orange@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_warning_orange@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_warning_orange@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_zhifufangshi_back@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_zhifufangshi_back@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_zhifufangshi_back@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POS_zhifufangshi_back@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_blue@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_blue@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_blue@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_blue@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_choice@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_choice@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_choice@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_choice@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_default@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_default@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_default@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_default@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_gray@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_gray@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_gray@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_coupon_gray@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_disuse_coupon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_disuse_coupon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_disuse_coupon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_disuse_coupon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_enablecoupon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_enablecoupon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_enablecoupon@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_enablecoupon@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yiguoqi@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yiguoqi@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yiguoqi@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yiguoqi@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_choice@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yinhangkaliebiao_object@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yishiyong@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yishiyong@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yishiyong@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/POStong_yishiyong@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/alipay_msp_arrow_left@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/alipay_msp_arrow_left@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/alipay_msp_close@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/alipay_msp_close@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/balance_pay_icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/balance_pay_icon@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/beijin_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/beijin_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_10@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_10@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_10@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_10@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_1@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_1@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_1@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_1@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_2@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_2@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_2@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_2@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_3@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_3@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_3@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_3@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_4@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_4@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_4@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_4@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_5@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_5@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_5@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_5@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_6@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_6@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_7@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_7@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_7@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_7@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_8@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_8@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_8@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_8@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_9@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_9@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_9@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/char_9@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongya 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongya 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongya.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongya.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongying_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/dongying_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/gongshang_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/gongshang_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/guangda_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/guangda_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/guangfa_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/guangfa_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/henfeng 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/henfeng 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/henfeng.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/henfeng.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaqi 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaqi 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaqi.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaqi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaxia_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/huaxia_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/jianshe.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/jianshe.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/jiaotong_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/jiaotong_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/minshen_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/minshen_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/moren_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/moren_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/nongye_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/nongye_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/payment_setting@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/payment_setting@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/pingan_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/pingan_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/pufa_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/pufa_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/qmf_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/qmf_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/shanghai_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/shanghai_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/shengfa_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/shengfa_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_loading_custom@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_loading_custom@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_loading_custom@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_loading_custom@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_pos_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_pos_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_secKeyboard_dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_secKeyboard_dot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_smallPos.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_smallPos.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full_custom@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full_custom@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full_custom@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/ums_start_full_custom@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/xingye_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/xingye_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/youzheng_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/youzheng_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhada 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhada 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhada.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhada.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhaoshang_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhaoshang_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhifufangshi_add@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhifufangshi_add@3x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhongguo_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhongguo_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhongxin_bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/PosPay_Resource.bundle/zhongxin_bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/UMSSecKeyboardLibResource.bundle/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/UMSSecKeyboardLibResource.bundle/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/UMSSecKeyboardLibResource.bundle/UMSBin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/UMSSecKeyboardLibResource.bundle/UMSBin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Frameworks/libUMSPosPayOnly.a" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Frameworks/libUMSPosPayOnly.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_flappy_pay.podspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_flappy_pay.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/flutter_flappy_pay_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/flutter_flappy_pay_test.dart" afterDir="false" />
-    </list>
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -452,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616388489453</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改binding">
+      <created>1627054787547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1627054787547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -466,10 +149,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改binding" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1627054784583">
+      <screen x="0" y="25" width="1680" height="949" />
+    </state>
+    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1627054784583" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1627054756248">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.25.1680.949@0.25.1680.949" timestamp="1627054756248" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1627054861364">
+      <screen x="0" y="25" width="1680" height="949" />
+    </state>
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1627054861364" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
