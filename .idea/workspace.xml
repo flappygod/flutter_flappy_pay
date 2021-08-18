@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/alipaySdk-15.7.9-20200727142846/alipaySdk-15.7.9-20200727142846.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/alipaySdk-15.7.9-20200727142846/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/qmf-ppplugin-android-3.0.7/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/qmf-ppplugin-android-3.0.7/qmf-ppplugin-android-3.0.7.aar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
