@@ -5,7 +5,13 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven { url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q' }
+        maven {
+            credentials {
+                username 'IwFSpm'
+                password 'X1eGwcKUn6'
+            }
+            url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q/'
+        }
 
     }
 
@@ -18,7 +24,13 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q' }
+        maven {
+            credentials {
+                username 'IwFSpm'
+                password 'X1eGwcKUn6'
+            }
+            url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q/'
+        }
     }
 }
 
