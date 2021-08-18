@@ -42,18 +42,18 @@ android {
 
 
     signingConfigs {
-        debug {
-            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
-            keyAlias "yimeiduo"
-            keyPassword "123456"
-            storePassword "123456"
-        }
-        release {
-            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
-            keyAlias "yimeiduo"
-            keyPassword "123456"
-            storePassword "123456"
-        }
+//        debug {
+//            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
+//            keyAlias "yimeiduo"
+//            keyPassword "123456"
+//            storePassword "123456"
+//        }
+//        release {
+//            storeFile file("yimeiduo.jks")//这个文件需要放在modele所在根目录下
+//            keyAlias "yimeiduo"
+//            keyPassword "123456"
+//            storePassword "123456"
+//        }
     }
 
 
