@@ -5,10 +5,12 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q' }
+
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:4.0.2'
     }
 }
 
@@ -16,6 +18,7 @@ rootProject.allprojects {
     repositories {
         google()
         jcenter()
+        maven { url 'https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q' }
     }
 }
 
@@ -46,10 +49,10 @@ android {
 dependencies {
     //加入jar包
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    // 支付宝
-    compileOnly files('libs/alipaySdk-15.7.9-20200727142846.aar')
-    // 支付宝
-    compileOnly files('libs/qmf-ppplugin-android-3.0.7.aar')
+    //QQ
+    api 'com.flappygo:alipay:1.0.8@aar'
+    //支付宝
+    api 'com.flappygo:qq:1.0.8@aar'
     // 微信
     api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }

@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/android/alipay/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/alipay/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/alipay/libs/alipaySdk-15.7.9-20200727142846.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/alipay/src/main/java/com/flappygo/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/qq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/qq/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/qq/libs/qmf-ppplugin-android-3.0.7.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/qq/src/main/java/com/flappygo/QQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

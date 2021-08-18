@@ -1,3 +1,5 @@
+include ':qq'
+include ':alipay'
 include ':app'
 
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
