@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629263722414</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="修改binding">
+      <created>1629263870978</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629263870978</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,15 +203,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改binding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1629261135395">
+    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1629263870807">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1629261135395" />
+    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1629263870807" />
     <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.951@0.25.1680.951" timestamp="1627057868659" />
-    <state x="48" y="105" width="1344" height="759" key="DiffContextDialog" timestamp="1629261156490">
+    <state x="48" y="105" width="1344" height="759" key="DiffContextDialog" timestamp="1629264488186">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="48" y="105" width="1344" height="759" key="DiffContextDialog/0.25.1680.949@0.25.1680.949" timestamp="1629261156490" />
+    <state x="48" y="105" width="1344" height="759" key="DiffContextDialog/0.25.1680.949@0.25.1680.949" timestamp="1629264488186" />
     <state width="1638" height="244" key="GridCell.Tab.0.bottom" timestamp="1629261156465">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
@@ -229,10 +236,10 @@
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.25.1680.949@0.25.1680.949" timestamp="1627054756248" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1629261142946">
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1629263726857">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1629261142946" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1629263726857" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.951@0.25.1680.951" timestamp="1627057894355" />
     <state x="498" y="237" key="VcsDiffUtil.ChangesDialog" timestamp="1629261066351">
       <screen x="0" y="25" width="1680" height="949" />
