@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="修改binding" />
+    <list default="true" id="51350af7-401e-48d9-b36d-409bbd53109b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/example/android/alipaySdk-15.7.9-20200727142846/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/android/qmf-ppplugin-android-3.0.7/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/alipaySdk-15.7.9-20200727142846.aar" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/alipaySdk-15.7.9-20200727142846/alipaySdk-15.7.9-20200727142846.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/libs/qmf-ppplugin-android-3.0.7.aar" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/qmf-ppplugin-android-3.0.7/qmf-ppplugin-android-3.0.7.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627057684523</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="修改binding">
+      <created>1627058667699</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1627058667699</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,20 +185,24 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改binding" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1627057868659">
-      <screen x="0" y="25" width="1680" height="951" />
+    <state x="278" y="73" key="CommitChangelistDialog2" timestamp="1627058667426">
+      <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1627057684257" />
+    <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.949@0.25.1680.949" timestamp="1627058667426" />
     <state x="278" y="73" key="CommitChangelistDialog2/0.25.1680.951@0.25.1680.951" timestamp="1627057868659" />
     <state x="341" y="135" key="SettingsEditor" timestamp="1627054756248">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.25.1680.949@0.25.1680.949" timestamp="1627054756248" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1627057894355">
-      <screen x="0" y="25" width="1680" height="951" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1627058672316">
+      <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1627057687962" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1627058672316" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.951@0.25.1680.951" timestamp="1627057894355" />
+    <state x="532" y="225" width="615" height="548" key="find.popup" timestamp="1627104207913">
+      <screen x="0" y="25" width="1680" height="954" />
+    </state>
+    <state x="532" y="225" width="615" height="548" key="find.popup/0.25.1680.954@0.25.1680.954" timestamp="1627104207913" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
