@@ -1,5 +1,3 @@
-include ':qmf-ppplugin-android-3.0.7'
-include ':alipaySdk-15.7.9-20200727142846'
 include ':app'
 
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")

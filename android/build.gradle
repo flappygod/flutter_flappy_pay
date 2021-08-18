@@ -47,9 +47,9 @@ dependencies {
     //加入jar包
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     // 支付宝
-    implementation project(":alipaySdk-15.7.9-20200727142846")
-    //QMF
-    implementation project(":qmf-ppplugin-android-3.0.7")
+    compileOnly files('libs/alipaySdk-15.7.9-20200727142846.aar')
+    // 支付宝
+    compileOnly files('libs/qmf-ppplugin-android-3.0.7.aar')
     // 微信
     api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }
