@@ -14,7 +14,6 @@
       <change afterPath="$PROJECT_DIR$/example/android/qq/libs/qmf-ppplugin-android-3.0.7.aar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/example/android/qq/src/main/java/com/flappygo/QQ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,10 +251,10 @@
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="341" y="135" key="SettingsEditor/0.25.1680.949@0.25.1680.949" timestamp="1627054756248" />
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1629266808413">
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1629278622321">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1629266808413" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.949@0.25.1680.949" timestamp="1629278622321" />
     <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.25.1680.951@0.25.1680.951" timestamp="1627057894355" />
     <state x="498" y="237" key="VcsDiffUtil.ChangesDialog" timestamp="1629261066351">
       <screen x="0" y="25" width="1680" height="949" />
