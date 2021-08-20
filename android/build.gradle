@@ -57,9 +57,9 @@ dependencies {
     //加入jar包
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //QQ
-    api 'com.flappygo:alipay:1.0.8@aar'
+    api 'com.flappygo:alipay:1.0.0@aar'
     //支付宝
-    api 'com.flappygo:qq:1.0.8@aar'
+    api 'com.flappygo:qq:1.0.0@aar'
     // 微信
     api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
 }
