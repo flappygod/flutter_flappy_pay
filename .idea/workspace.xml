@@ -20,7 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[a002c6e9]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -43,7 +43,7 @@
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -263,10 +263,10 @@
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="498" y="237" key="VcsDiffUtil.ChangesDialog/0.25.1680.949@0.25.1680.949" timestamp="1629261066351" />
-    <state x="532" y="224" width="615" height="548" key="find.popup" timestamp="1629260767505">
+    <state x="532" y="224" width="615" height="548" key="find.popup" timestamp="1634115744501">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
-    <state x="532" y="224" width="615" height="548" key="find.popup/0.25.1680.949@0.25.1680.949" timestamp="1629260767505" />
+    <state x="532" y="224" width="615" height="548" key="find.popup/0.25.1680.949@0.25.1680.949" timestamp="1634115744501" />
     <state x="532" y="225" width="615" height="548" key="find.popup/0.25.1680.954@0.25.1680.954" timestamp="1627104207913" />
   </component>
   <component name="XDebuggerManager">

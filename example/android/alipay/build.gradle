@@ -1,0 +1,31 @@
+apply plugin: 'java-library'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+//上传到maven
+apply plugin: 'maven'
+
+def coreAarFile = file('libs/alipaySdk-15.7.9-20200727142846.aar')  //第三方aar依赖库
+artifacts {
+    archives coreAarFile
+}
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            //上传的maven库地址
+            repository(url: "https://repo.rdc.aliyun.com/repository/83882-release-vRoR7q") {
+                authentication(userName:"IwFSpm",password:"X1eGwcKUn6")
+            }
+
+            pom.version = "1.0.0"  //当前需要上传的aar的版本
+            pom.artifactId = "alipay"  //当前需要上传的aar的id
+            pom.groupId = "com.flappygo"  //当前需要上传的aar的groupId
+        }
+    }
+}
